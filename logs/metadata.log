@@ -1,0 +1,1580 @@
+2025-08-26 14:59:06,283 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:57123     34.196.200.243:443     CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:01:04,723 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:57948     18.97.36.55:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:01:24,557 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49707     52.72.219.211:443      ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:04:05,778 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:57948     18.97.36.55:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:04:26,388 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49707     52.72.219.211:443      CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:05:22,125 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:54135       18.97.36.3:443         ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:05:38,219 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%20]:57649  [fe80::6e0b:5eff:fe12:19bb%20]:631  SYN_SENT        1264
+🖥️  Process Info: PID:1264 | Process: dasHost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:05:45,833 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::d2e0:34f3:7f27:3a61%19]:2177  *:*                                    3452
+🖥️  Process Info: PID:3452 | Process: svchost.exe
+
+
+2025-08-26 15:05:48,295 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::d2e0:34f3:7f27:3a61%19]:57645  [fe80::5330:fffe:eac2:6c51%19]:2869  SYN_SENT        12720
+🖥️  Process Info: PID:12720 | Process: dasHost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:06:30,362 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:57403       52.0.227.175:443       SYN_SENT        25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:07:40,007 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%20]:57349  [fe80::6e0b:5eff:fe12:19bb%20]:631  TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:07:43,581 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    0.0.0.0:60855          *:*                                    4800
+🖥️  Process Info: PID:4800 | Process: warp-svc.exe
+
+
+2025-08-26 15:09:43,591 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::a337:e905:7bb0:b0fa%11]:58584  *:*                                    10232
+🖥️  Process Info: PID:10232 | Process: svchost.exe
+
+
+2025-08-26 15:10:04,393 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%20]:63344  [fe80::f82d:c8bc:802a:edde%20]:5357  SYN_SENT        12720
+🖥️  Process Info: PID:12720 | Process: dasHost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:10:08,746 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::d2e0:34f3:7f27:3a61%19]:63338  [fe80::d69e:5e7c:1843:6f9a%19]:2869  SYN_SENT        12720
+🖥️  Process Info: PID:12720 | Process: dasHost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:11:13,492 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:64720     18.97.36.60:443        SYN_SENT        25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:11:39,506 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63891     54.158.215.4:443       SYN_SENT        25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:12:07,776 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%20]:63350  [fe80::f2a6:54ff:fe69:e69c%20]:631  TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:14:14,375 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63881     18.97.36.60:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:14:41,776 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63891     54.158.215.4:443       CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:16:07,954 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53476     98.86.55.48:443        ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:17:15,613 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63881     18.97.36.60:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:19:08,999 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53476     98.86.55.48:443        CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AWS EC2 (us-east-1)
+  Country: United States
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:20:30,520 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53476     98.86.55.48:443        CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:22:25,578 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63881     18.97.36.60:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:23:31,901 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53476     98.86.55.48:443        CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:44:58,022 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53700     18.97.36.52:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:45:15,864 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59046     3.208.189.185:443      CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:46:33,822 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54786     54.167.171.128:443     ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:47:58,550 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53700     18.97.36.52:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:49:36,169 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54786     54.167.171.128:443     CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AWS EC2 (us-east-1)
+  Country: United States
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:51:03,998 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53700     18.97.36.52:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:51:07,157 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62683     34.196.136.65:443      ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:54:04,177 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53700     18.97.36.52:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-26 15:54:07,385 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62683     34.196.136.65:443      CLOSE_WAIT      25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:56:04,286 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:58002     3.234.102.65:443       ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:56:41,839 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63669     107.20.151.92:443      SYN_SENT        25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:56:46,592 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63670     52.86.129.103:443      ESTABLISHED     25120
+🖥️  Process Info: PID:25120 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-26 15:57:09,163 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53700     18.97.36.52:443        ESTABLISHED     25764
+🖥️  Process Info: PID:25764 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 09:58:55,972 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%20]:55740  [fe80::2e58:b9ff:fea9:ae1e%20]:631  TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+
+
+2025-08-27 10:57:38,758 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:58484       52.23.30.142:443       CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 11:30:05,291 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:52237       54.158.215.4:443       CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 12:16:57,229 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:54051       3.225.176.104:443      CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:01:42,133 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:55810       98.86.55.48:443        ESTABLISHED     23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Malicious (VirusTotal)
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 1
+
+
+2025-08-27 16:05:18,485 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [::]:5353              *:*                                    2004
+🖥️  Process Info: PID:2004 | Process: svchost.exe
+
+
+2025-08-27 16:06:21,107 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:56143       44.212.223.223:443     CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AS14618 Amazon.com, Inc.
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:06:57,845 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:62741       157.240.243.35:443     SYN_SENT        9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:06:58,890 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    [2606:4700:110:8d3e:6a2d:f4fe:ed5e:8e63]:52735  [2a03:2880:f142:82:face:b00c:0:25de]:443  ESTABLISHED     9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:07:28,927 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: UDP    [::]:59149             [2a03:2880:f170:81:face:b00c:0:25de]:443                  9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:13:21,514 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::1d4:9494:ea01:ca6%17]:1900  *:*                                    10232
+🖥️  Process Info: PID:10232 | Process: svchost.exe
+
+
+2025-08-27 16:24:14,449 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:58247       44.196.245.23:443      CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:24:15,513 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    [2606:4700:110:8d3e:6a2d:f4fe:ed5e:8e63]:50729  [2a03:2880:f142:82:face:b00c:0:25de]:443  TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: FR
+  Region: Provence-Alpes-Côte d'Azur
+  City: Marseille
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:24:50,476 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::d2e0:34f3:7f27:3a61%19]:2177  *:*                                    3452
+🖥️  Process Info: PID:3452 | Process: svchost.exe
+
+
+2025-08-27 16:24:59,848 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:57248       3.93.205.13:443        ESTABLISHED     23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:25:17,648 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    [2606:4700:110:8d3e:6a2d:f4fe:ed5e:8e63]:61726  [2a03:2880:f170:81:face:b00c:0:25de]:443  ESTABLISHED     9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:28:10,552 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:57248       3.93.205.13:443        CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:29:24,616 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    [2606:4700:110:8d3e:6a2d:f4fe:ed5e:8e63]:53580  [2a03:2880:f170:81:face:b00c:0:25de]:443  ESTABLISHED     9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: ES
+  Region: Catalonia
+  City: Barcelona
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:29:38,919 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:53589       3.229.29.197:443       ESTABLISHED     23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:34:12,767 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:53589       3.229.29.197:443       CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:34:20,130 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    [2606:4700:110:8d3e:6a2d:f4fe:ed5e:8e63]:60395  [2a03:2880:f142:82:face:b00c:0:25de]:443  CLOSE_WAIT      9684
+🖥️  Process Info: PID:9684 | Process: chrome.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:39:12,233 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [::]:58397             *:*                                    4800
+🖥️  Process Info: PID:4800 | Process: warp-svc.exe
+
+
+2025-08-27 16:40:12,833 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    172.16.0.2:1900        *:*                                    10232
+🖥️  Process Info: PID:10232 | Process: svchost.exe
+
+
+2025-08-27 16:41:35,061 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::1d4:9494:ea01:ca6%17]:58078  *:*                                    10232
+🖥️  Process Info: PID:10232 | Process: svchost.exe
+
+
+2025-08-27 16:42:06,829 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:55264       98.86.55.48:443        ESTABLISHED     23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AS14618 Amazon.com, Inc.
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:43:02,425 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [::]:59427             *:*                                    2004
+🖥️  Process Info: PID:2004 | Process: svchost.exe
+
+
+2025-08-27 16:44:13,112 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [::]:55666             *:*                                    4800
+🖥️  Process Info: PID:4800 | Process: warp-svc.exe
+
+
+2025-08-27 16:46:01,146 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [::]:64963             *:*                                    4800
+🖥️  Process Info: PID:4800 | Process: warp-svc.exe
+
+
+2025-08-27 16:47:08,052 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::1d4:9494:ea01:ca6%17]:1900  *:*                                    10232
+🖥️  Process Info: PID:10232 | Process: svchost.exe
+
+
+2025-08-27 16:48:15,986 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:63417       44.207.18.170:443      CLOSE_WAIT      23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-27 16:49:43,257 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    172.16.0.2:63701       34.202.75.175:443      SYN_SENT        23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-27 16:53:02,668 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62285     34.205.98.152:443      SYN_SENT        23452
+🖥️  Process Info: PID:23452 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:22:11,850 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49940     44.196.245.23:443      TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:25:13,703 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:64514     44.196.245.23:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AWS EC2 (us-east-1)
+  Country: United States
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:25:48,660 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62023     44.212.223.223:443     ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:28:51,504 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62023     44.212.223.223:443     CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:29:33,905 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53741     52.70.24.64:443        ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:32:35,481 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53741     52.70.24.64:443        CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:33:36,236 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62590     54.235.28.214:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:36:37,539 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62590     54.235.28.214:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:38:37,172 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:57169     52.54.157.200:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:41:38,926 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:57169     52.54.157.200:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:43:33,007 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:58435     44.196.245.23:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AWS EC2 (us-east-1)
+  Country: United States
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:46:33,659 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:58435     44.196.245.23:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AWS EC2 (us-east-1)
+  Country: United States
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:48:46,294 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:50942     44.206.33.249:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:51:55,920 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:50942     44.206.33.249:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:53:36,313 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49722     52.23.30.142:443       ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 09:56:38,750 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49722     52.23.30.142:443       CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 09:58:38,048 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55887     52.70.193.248:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:01:40,678 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55887     52.70.193.248:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:03:37,436 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54958     54.209.225.21:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:06:37,792 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54958     54.209.225.21:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: AS14618 Amazon.com, Inc.
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Cloud Hosting
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:08:36,073 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:64165     3.225.176.104:443      ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:11:36,376 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:64165     3.225.176.104:443      CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:13:30,557 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59974     52.23.30.142:443       SYN_SENT        17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:16:38,069 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59974     52.23.30.142:443       CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:18:34,778 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55748     44.205.209.132:443     SYN_SENT        17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:21:35,177 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55748     44.205.209.132:443     CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:23:36,609 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49316     52.87.87.149:443       ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:26:38,818 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49316     52.87.87.149:443       CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:28:20,638 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62865     52.34.202.188:443      ESTABLISHED     13016
+🖥️  Process Info: PID:13016 | Process: servicehost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-08-28 10:28:33,777 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62881     52.23.30.142:443       ESTABLISHED     17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-08-28 10:31:35,202 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62881     52.23.30.142:443       CLOSE_WAIT      17532
+🖥️  Process Info: PID:17532 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+

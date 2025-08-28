@@ -1,0 +1,42 @@
+2025-08-26 10:43:09,883 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 10:59:22,946 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:01:14,958 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:15:05,859 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 11:15:20,235 - [HIGH] IPv6 RA flood heuristic: fe80::d2e0:34f3:7f27:3a61%19 saw 6 link-local IPv6 entries in window
+2025-08-26 11:17:07,869 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 23 link-local IPv6 entries in window
+2025-08-26 11:17:12,475 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:18:28,740 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:20:13,684 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:21:16,275 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:23:27,114 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:28:17,698 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:29:27,914 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:31:13,973 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 11:41:05,573 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 11:41:13,337 - [HIGH] IPv6 RA flood heuristic: fe80::d2e0:34f3:7f27:3a61%19 saw 6 link-local IPv6 entries in window
+2025-08-26 11:43:06,898 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 9 link-local IPv6 entries in window
+2025-08-26 12:28:14,496 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 12:30:15,401 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 53 link-local IPv6 entries in window
+2025-08-26 13:52:31,165 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 13:52:41,453 - [HIGH] IPv6 RA flood heuristic: fe80::d2e0:34f3:7f27:3a61%19 saw 6 link-local IPv6 entries in window
+2025-08-26 13:54:31,257 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 43 link-local IPv6 entries in window
+2025-08-26 15:05:38,212 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 15:05:45,820 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 15:05:48,281 - [HIGH] IPv6 RA flood heuristic: fe80::d2e0:34f3:7f27:3a61%19 saw 6 link-local IPv6 entries in window
+2025-08-26 15:07:39,988 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 41 link-local IPv6 entries in window
+2025-08-26 15:07:43,566 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 15:09:43,581 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-26 15:10:04,371 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-26 15:10:08,724 - [HIGH] IPv6 RA flood heuristic: fe80::d2e0:34f3:7f27:3a61%19 saw 6 link-local IPv6 entries in window
+2025-08-26 15:12:07,760 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 11 link-local IPv6 entries in window
+2025-08-27 09:58:55,936 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%20 saw 6 link-local IPv6 entries in window
+2025-08-27 16:05:18,473 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:13:21,508 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:24:50,467 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:39:12,216 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:40:12,832 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:41:35,060 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:43:02,423 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:44:13,111 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:46:01,136 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-08-27 16:47:08,051 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)

@@ -11,7 +11,7 @@ from ui.main_window import NetstatApp
 from utils.ip_utils import geo_worker, reverse_dns_worker
 
 def main():
-    log("INFO", "🚀 Starting Enhanced Responsive Network Security Monitor")
+    log("INFO", "🚀 Starting Endpoint Security Monitor")
     try:
         geo_thread = threading.Thread(target=geo_worker, daemon=True)
         geo_thread.start()

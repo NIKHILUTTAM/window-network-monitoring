@@ -1,0 +1,2 @@
+2025-09-02 10:01:08,043 - [SUSPICIOUS] Suspicious target (ecommerce) detected by reverse DNS: ec2-52-73-159-109.compute-1.amazonaws.com (52.73.159.109) PID=3496 proc=EpicGamesLauncher.exe
+2025-09-02 10:14:15,692 - [SUSPICIOUS] Suspicious target (ecommerce) detected by reverse DNS: ec2-52-87-87-149.compute-1.amazonaws.com (52.87.87.149) PID=3496 proc=EpicGamesLauncher.exe

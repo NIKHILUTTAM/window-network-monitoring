@@ -1,0 +1,46 @@
+2025-09-02 09:55:09,509 - INFO - INFO - 🚀 Starting Endpoint Security Monitor
+2025-09-02 09:55:12,078 - INFO - INFO - ✅ Application initialized successfully. Starting main loop...
+2025-09-02 09:59:38,593 - INFO - INFO - 🚀 Starting Endpoint Security Monitor
+2025-09-02 09:59:41,904 - INFO - INFO - ✅ Application initialized successfully. Starting main loop...
+2025-09-02 09:59:46,913 - INFO - INFO - Endpoint monitoring started
+2025-09-02 09:59:57,163 - INFO - INFO - Network monitoring stopped
+2025-09-02 09:59:57,785 - INFO - WARNING - ipinfo.io failed for 4.213.25.241: HTTPSConnectionPool(host='ipinfo.io', port=443): Read timed out. (read timeout=2.0)
+2025-09-02 10:00:01,686 - INFO - WARNING - Geo queue full, skipping IP: 23.15.34.66
+2025-09-02 10:00:01,688 - INFO - WARNING - Geo queue full, skipping IP: 13.95.31.18
+2025-09-02 10:00:01,689 - INFO - WARNING - Geo queue full, skipping IP: 162.159.192.1
+2025-09-02 10:00:01,690 - INFO - WARNING - Geo queue full, skipping IP: 18.67.195.126
+2025-09-02 10:00:01,690 - INFO - WARNING - Geo queue full, skipping IP: 70.130.228.104
+2025-09-02 10:00:01,692 - INFO - WARNING - Geo queue full, skipping IP: 10.226.55.124
+2025-09-02 10:00:01,692 - INFO - WARNING - Geo queue full, skipping IP: 10.226.54.4
+2025-09-02 10:00:01,693 - INFO - WARNING - Geo queue full, skipping IP: 199.232.210.172
+2025-09-02 10:00:01,693 - INFO - WARNING - Geo queue full, skipping IP: 23.210.70.100
+2025-09-02 10:00:01,693 - INFO - WARNING - Geo queue full, skipping IP: 199.232.214.172
+2025-09-02 10:00:01,694 - INFO - WARNING - Geo queue full, skipping IP: 151.101.193.91
+2025-09-02 10:00:01,695 - INFO - WARNING - Geo queue full, skipping IP: 172.253.118.188
+2025-09-02 10:00:01,696 - INFO - WARNING - Geo queue full, skipping IP: 172.217.24.74
+2025-09-02 10:00:01,696 - INFO - WARNING - Geo queue full, skipping IP: 142.250.76.67
+2025-09-02 10:00:01,697 - INFO - WARNING - Geo queue full, skipping IP: 142.250.118.94
+2025-09-02 10:00:01,697 - INFO - WARNING - Geo queue full, skipping IP: 52.73.159.109
+2025-09-02 10:00:01,698 - INFO - WARNING - Geo queue full, skipping IP: 142.251.12.84
+2025-09-02 10:00:01,698 - INFO - WARNING - Geo queue full, skipping IP: 192.178.134.94
+2025-09-02 10:00:01,699 - INFO - WARNING - Geo queue full, skipping IP: 127.0.0.1
+2025-09-02 10:00:01,700 - INFO - WARNING - Geo queue full, skipping IP: 162.159.200.123
+2025-09-02 10:01:07,477 - INFO - SUSPICIOUS - Suspicious target (ecommerce) detected by reverse DNS: ec2-52-73-159-109.compute-1.amazonaws.com (52.73.159.109) PID=3496 proc=EpicGamesLauncher.exe evidence: TCP    10.226.50.89:58567     52.73.159.109:443      CLOSE_WAIT      3496
+2025-09-02 10:01:36,540 - INFO - INFO - 🔚 Application shutdown complete
+2025-09-02 10:01:42,748 - INFO - INFO - 🚀 Starting Endpoint Security Monitor
+2025-09-02 10:01:46,141 - INFO - INFO - ✅ Application initialized successfully. Starting main loop...
+2025-09-02 10:03:16,497 - INFO - INFO - 🔚 Application shutdown complete
+2025-09-02 10:03:20,600 - INFO - INFO - 🔚 Application shutdown complete
+2025-09-02 10:13:13,097 - INFO - INFO - 🚀 Starting Endpoint Security Monitor
+2025-09-02 10:13:15,334 - INFO - INFO - ✅ Application initialized successfully. Starting main loop...
+2025-09-02 10:13:42,402 - INFO - INFO - Endpoint monitoring started
+2025-09-02 10:13:57,569 - INFO - INFO - Network monitoring stopped
+2025-09-02 10:14:04,085 - INFO - WARNING - AbuseIPDB failed for 4.213.25.241: HTTPSConnectionPool(host='api.abuseipdb.com', port=443): Read timed out. (read timeout=2.0)
+2025-09-02 10:14:15,280 - INFO - SUSPICIOUS - Suspicious target (ecommerce) detected by reverse DNS: ec2-52-87-87-149.compute-1.amazonaws.com (52.87.87.149) PID=3496 proc=EpicGamesLauncher.exe evidence: TCP    10.226.50.89:55601     52.87.87.149:443       CLOSE_WAIT      3496
+2025-09-02 10:15:12,749 - INFO - WARNING - RDAP failed for 23.210.68.33: HTTPSConnectionPool(host='rdap.arin.net', port=443): Read timed out. (read timeout=2.0)
+2025-09-02 10:15:19,563 - INFO - WARNING - VirusTotal failed for 23.210.68.33: HTTPSConnectionPool(host='www.virustotal.com', port=443): Read timed out. (read timeout=2.0)
+2025-09-02 10:15:29,865 - INFO - WARNING - RDAP failed for 142.250.76.67: HTTPSConnectionPool(host='rdap.db.ripe.net', port=443): Max retries exceeded with url: /ip/142.250.76.67 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002ECDD39F390>, 'Connection to rdap.db.ripe.net timed out. (connect timeout=2.0)'))
+2025-09-02 10:15:52,141 - INFO - WARNING - ipinfo.io failed for 192.178.177.94: HTTPSConnectionPool(host='ipinfo.io', port=443): Read timed out. (read timeout=2.0)
+2025-09-02 10:15:57,705 - INFO - WARNING - ip-api.com failed for 192.178.177.94: HTTPConnectionPool(host='ip-api.com', port=80): Max retries exceeded with url: /json/192.178.177.94 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002ECDE524D50>, 'Connection to ip-api.com timed out. (connect timeout=2.0)'))
+2025-09-02 10:15:59,722 - INFO - WARNING - RDAP failed for 192.178.177.94: HTTPSConnectionPool(host='rdap.db.ripe.net', port=443): Max retries exceeded with url: /ip/192.178.177.94 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002ECDE51DD50>, 'Connection to rdap.db.ripe.net timed out. (connect timeout=2.0)'))
+2025-09-02 14:04:28,693 - INFO - INFO - 🔚 Application shutdown complete

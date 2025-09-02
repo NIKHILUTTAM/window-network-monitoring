@@ -3,26 +3,38 @@ import re
 from config import proc_cache, proc_cache_lock
 from utils.logger import log, rolling_logs
 
-NETSTAT_RE = re.compile(r'^(?P<proto>\S+)\s+(?P<local>\S+)\s+(?P<remote>\S+)\s+(?P<state>\S+)\s*(?P<pid>\d+)?', re.IGNORECASE)
+NETSTAT_RE = re.compile(r'^(?P<proto>\S+)\s+(?P<local>\S+)\s+(?P<remote>\S+)\s+(?P<state>\S+)\s*(?P<pid>\d+)?',
+                        re.IGNORECASE)
+
 
 def run_netstat_windows():
     try:
-        proc = subprocess.run(["netstat", "-ano"], capture_output=True, text=True, check=False)
+        # Add creationflags to prevent the console window from flashing
+        proc = subprocess.run(
+            ["netstat", "-ano"],
+            capture_output=True,
+            text=True,
+            check=False,
+            creationflags=subprocess.CREATE_NO_WINDOW
+        )
         out = proc.stdout or proc.stderr or ""
         lines = out.splitlines()
+
         rolling_logs['live_netstat'].info("Live Netstat Output:\n" + "\n".join(lines))
+
         return lines
     except Exception as e:
         log("ERROR", f"netstat command failed: {e}")
         return []
 
+
 def split_addr_port(token: str):
     if token == '*:*' or token == '0.0.0.0:0':
         return "*", None
-    
+
     if token.startswith('[') and ']' in token:
         ip = token[1:token.index(']')]
-        rest = token[token.index(']')+1:]
+        rest = token[token.index(']') + 1:]
         port = None
         if rest.startswith(':'):
             try:
@@ -38,6 +50,7 @@ def split_addr_port(token: str):
             return token, None
     return token, None
 
+
 def pid_to_proc(pid: int):
     if not pid:
         return None
@@ -46,7 +59,13 @@ def pid_to_proc(pid: int):
             return proc_cache[pid]
     name = None
     try:
-        result = subprocess.run(["tasklist", "/FI", f"PID eq {pid}"], capture_output=True, text=True)
+        # Add creationflags here as well
+        result = subprocess.run(
+            ["tasklist", "/FI", f"PID eq {pid}"],
+            capture_output=True,
+            text=True,
+            creationflags=subprocess.CREATE_NO_WINDOW
+        )
         out = result.stdout
         for line in out.splitlines():
             if str(pid) in line:
@@ -60,13 +79,15 @@ def pid_to_proc(pid: int):
         proc_cache[pid] = name
     return name
 
+
 def parse_netstat_lines(lines):
     for line in lines:
         try:
             line = line.strip()
             if not line:
                 continue
-            if not (line.startswith("TCP") or line.startswith("UDP") or line.startswith("tcp") or line.startswith("udp")):
+            if not (line.startswith("TCP") or line.startswith("UDP") or line.startswith("tcp") or line.startswith(
+                    "udp")):
                 continue
             parts = re.split(r'\s+', line)
             proto = parts[0]
@@ -90,7 +111,8 @@ def parse_netstat_lines(lines):
                 continue
             local_ip, local_port = split_addr_port(local_tok)
             remote_ip, remote_port = split_addr_port(remote_tok)
-            state_m = re.search(r'\b(ESTABLISHED|LISTENING|LISTEN|TIME_WAIT|CLOSE_WAIT|SYN_SENT|SYN_RECV|LAST_ACK)\b', line, re.IGNORECASE)
+            state_m = re.search(r'\b(ESTABLISHED|LISTENING|LISTEN|TIME_WAIT|CLOSE_WAIT|SYN_SENT|SYN_RECV|LAST_ACK)\b',
+                                line, re.IGNORECASE)
             state = state_m.group(1) if state_m else (state_tok or "")
             procname = pid_to_proc(pid) if pid else None
             rec = {

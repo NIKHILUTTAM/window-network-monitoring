@@ -23,13 +23,13 @@ from ui.forensics_tab import ForensicsTab
 class NetstatApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Network Security Monitor")
+        self.root.title("End Point Monitoring and Security (EPMS)")
         self.root.geometry("1200x900")
         self.root.minsize(800, 600)
 
         self.root.grid_rowconfigure(1, weight=1)
         self.root.grid_columnconfigure(0, weight=1)
-        
+
         self.ui_helper = ResponsiveUIHelper(root)
         self.is_monitoring = False
         self.colors = {
@@ -49,7 +49,7 @@ class NetstatApp:
             "social_media": "#3498db",
             "malicious": "#e74c3c",
         }
-        
+
         self.last_seen = []
         self.last_seen_lock = threading.Lock()
         self.ip_details = {}
@@ -58,11 +58,11 @@ class NetstatApp:
         self.domain_mapping = {}
         self.domain_counts = defaultdict(int)
         self.domain_lock = threading.Lock()
-        
+
         self._stop_event = threading.Event()
         self.monitor_thread = None
         self.ui_update_interval = 1000
-        
+
         self.create_responsive_widgets()
         self.root.bind('<Configure>', self.on_window_resize)
         self.root.after(self.ui_update_interval, self.ui_update_loop)
@@ -74,7 +74,7 @@ class NetstatApp:
         header_frame.grid_columnconfigure(0, weight=1)
         header_frame.grid_propagate(False)
         header_font = self.ui_helper.get_scaled_font("Arial", 16, "bold")
-        header_label = tk.Label(header_frame, text="🛡️Network Security Monitor", 
+        header_label = tk.Label(header_frame, text="🛡️ End Point Monitoring and Security (EPMS)",
                                 font=header_font, fg="white", bg=self.colors["header"])
         header_label.grid(row=0, column=0, pady=10)
 
@@ -82,11 +82,11 @@ class NetstatApp:
         main_frame.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
         main_frame.grid_rowconfigure(1, weight=1)
         main_frame.grid_columnconfigure(0, weight=1)
-        
+
         self.create_filter_controls(main_frame)
-        
+
         self.create_responsive_tabs(main_frame)
-        
+
         self.create_responsive_status_bar()
 
     def create_filter_controls(self, parent):
@@ -99,11 +99,11 @@ class NetstatApp:
         self.show_internal_var = tk.BooleanVar(value=CONFIG["filters"]["show_only_internal"])
         self.show_listening_var = tk.BooleanVar(value=CONFIG["filters"]["show_listening_only"])
         checkbox_font = self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"])
-        cb1 = ttk.Checkbutton(checkbox_frame, text="Exclude 0.0.0.0 remote connections", 
+        cb1 = ttk.Checkbutton(checkbox_frame, text="Exclude 0.0.0.0 remote connections",
                               variable=self.exclude_zero_var, command=self.update_filters)
-        cb2 = ttk.Checkbutton(checkbox_frame, text="Show only internal connections", 
+        cb2 = ttk.Checkbutton(checkbox_frame, text="Show only internal connections",
                               variable=self.show_internal_var, command=self.update_filters)
-        cb3 = ttk.Checkbutton(checkbox_frame, text="Show only LISTENING connections", 
+        cb3 = ttk.Checkbutton(checkbox_frame, text="Show only LISTENING connections",
                               variable=self.show_listening_var, command=self.update_filters)
         cb1.grid(row=0, column=0, sticky="w", padx=5, pady=2)
         cb2.grid(row=0, column=1, sticky="w", padx=5, pady=2)
@@ -111,7 +111,17 @@ class NetstatApp:
         checkbox_frame.grid_columnconfigure(0, weight=1)
         checkbox_frame.grid_columnconfigure(1, weight=1)
         checkbox_frame.grid_columnconfigure(2, weight=1)
+    def on_connection_double_click(self, event):
+        """Handles the double-click event on the connections Treeview."""
+        selected = self.conn_tree.selection()
+        if not selected:
+            return
 
+        # Reuse the single-click logic to populate the details
+        self.on_tree_select(event)
+
+        # Programmatically switch the view to the IP Details tab
+        self.tab_control.select(self.tab_geo)
     def create_responsive_tabs(self, parent):
         self.tab_control = ttk.Notebook(parent)
         self.tab_control.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
@@ -130,11 +140,11 @@ class NetstatApp:
         self.tab_live.grid_rowconfigure(1, weight=1)
         self.tab_live.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        live_header = ttk.Label(self.tab_live, text="ACTIVE NETWORK CONNECTIONS", 
+        live_header = ttk.Label(self.tab_live, text="ACTIVE NETWORK CONNECTIONS",
                                 font=header_font, foreground=self.colors["primary"])
         live_header.grid(row=0, column=0, pady=5, sticky="w")
         text_font = self.ui_helper.get_scaled_font("Consolas", CONFIG["ui"]["base_font_size"])
-        self.live_text = scrolledtext.ScrolledText(self.tab_live, wrap=tk.NONE, 
+        self.live_text = scrolledtext.ScrolledText(self.tab_live, wrap=tk.NONE,
                                                    font=text_font, bg="white")
         self.live_text.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
         self.configure_live_text_tags()
@@ -145,12 +155,12 @@ class NetstatApp:
         self.tab_security.grid_rowconfigure(1, weight=1)
         self.tab_security.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        security_label = ttk.Label(self.tab_security, text="⚠️ HIGH-PRIORITY SECURITY THREATS", 
+        security_label = ttk.Label(self.tab_security, text="⚠️ HIGH-PRIORITY SECURITY THREATS",
                                    font=header_font, foreground=self.colors["danger"])
         security_label.grid(row=0, column=0, pady=5, sticky="w")
         text_font = self.ui_helper.get_scaled_font("Consolas", CONFIG["ui"]["base_font_size"])
-        self.sec_text = scrolledtext.ScrolledText(self.tab_security, wrap=tk.WORD, 
-                                                  font=text_font, 
+        self.sec_text = scrolledtext.ScrolledText(self.tab_security, wrap=tk.WORD,
+                                                  font=text_font,
                                                   foreground="darkred", background="#fff8f8")
         self.sec_text.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
         self.configure_security_text_tags()
@@ -161,11 +171,11 @@ class NetstatApp:
         self.tab_general.grid_rowconfigure(1, weight=1)
         self.tab_general.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        general_label = ttk.Label(self.tab_general, text="📊 INFORMATIONAL ALERTS", 
+        general_label = ttk.Label(self.tab_general, text="📊 INFORMATIONAL ALERTS",
                                   font=header_font, foreground=self.colors["info"])
         general_label.grid(row=0, column=0, pady=5, sticky="w")
         text_font = self.ui_helper.get_scaled_font("Consolas", CONFIG["ui"]["base_font_size"])
-        self.gen_text = scrolledtext.ScrolledText(self.tab_general, wrap=tk.WORD, 
+        self.gen_text = scrolledtext.ScrolledText(self.tab_general, wrap=tk.WORD,
                                                   font=text_font,
                                                   foreground="darkblue", background="#f2f2f7")
         self.gen_text.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
@@ -177,7 +187,7 @@ class NetstatApp:
         self.tab_conn.grid_rowconfigure(1, weight=1)
         self.tab_conn.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        conn_label = ttk.Label(self.tab_conn, text="CONNECTION DETAILS WITH GEO INFO", 
+        conn_label = ttk.Label(self.tab_conn, text="CONNECTION DETAILS WITH GEO INFO",
                                font=header_font, foreground=self.colors["primary"])
         conn_label.grid(row=0, column=0, pady=5, sticky="w")
         tree_container = tk.Frame(self.tab_conn, bg=self.colors["bg"])
@@ -207,6 +217,7 @@ class NetstatApp:
         v_scrollbar.grid(row=0, column=1, sticky="ns")
         h_scrollbar.grid(row=1, column=0, sticky="ew")
         self.conn_tree.bind('<<TreeviewSelect>>', self.on_tree_select)
+        self.conn_tree.bind('<Double-1>', self.on_connection_double_click)
 
     def create_metadata_tab(self):
         self.tab_meta = ttk.Frame(self.tab_control)
@@ -214,11 +225,11 @@ class NetstatApp:
         self.tab_meta.grid_rowconfigure(1, weight=1)
         self.tab_meta.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        meta_label = ttk.Label(self.tab_meta, text="ALERT EVIDENCE & PACKET METADATA", 
+        meta_label = ttk.Label(self.tab_meta, text="ALERT EVIDENCE & PACKET METADATA",
                                font=header_font, foreground=self.colors["primary"])
         meta_label.grid(row=0, column=0, pady=5, sticky="w")
         text_font = self.ui_helper.get_scaled_font("Consolas", CONFIG["ui"]["base_font_size"])
-        self.meta_text = scrolledtext.ScrolledText(self.tab_meta, wrap=tk.WORD, 
+        self.meta_text = scrolledtext.ScrolledText(self.tab_meta, wrap=tk.WORD,
                                                    font=text_font, bg="white")
         self.meta_text.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
         self.configure_metadata_text_tags()
@@ -226,24 +237,26 @@ class NetstatApp:
     def create_geo_details_tab(self):
         self.tab_geo = ttk.Frame(self.tab_control)
         self.tab_control.add(self.tab_geo, text="🌍 IP Details")
+
+        # <-- CHANGE: Configure grid rows/columns for proper expansion
         self.tab_geo.grid_rowconfigure(1, weight=1)
         self.tab_geo.grid_columnconfigure(0, weight=1)
+
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        geo_label = ttk.Label(self.tab_geo, text="GEOGRAPHIC & ORGANIZATIONAL DETAILS", 
+        geo_label = ttk.Label(self.tab_geo, text="GEOGRAPHIC & ORGANIZATIONAL DETAILS",
                               font=header_font, foreground=self.colors["primary"])
-        geo_label.grid(row=0, column=0, pady=5, sticky="w")
-        
-        geo_container = tk.Frame(self.tab_geo, bg=self.colors["bg"])
-        geo_container.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
-        geo_container.grid_rowconfigure(0, weight=1)
-        geo_container.grid_columnconfigure(0, weight=1)
-        geo_container.grid_columnconfigure(1, weight=1)
-        
-        tree_frame = tk.Frame(geo_container, bg=self.colors["bg"])
-        tree_frame.grid(row=0, column=0, sticky="nsew", padx=(0, 5))
+        # <-- CHANGE: Use grid for the header
+        geo_label.grid(row=0, column=0, pady=5, sticky="w", padx=5)
+
+        # <-- CHANGE: Use a PanedWindow for a resizable layout
+        paned_window = ttk.PanedWindow(self.tab_geo, orient=tk.HORIZONTAL)
+        paned_window.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
+
+        # --- Left Pane (Details Tree) ---
+        tree_frame = tk.Frame(paned_window, bg=self.colors["bg"])
         tree_frame.grid_rowconfigure(0, weight=1)
         tree_frame.grid_columnconfigure(0, weight=1)
-        
+
         geo_cols = ("property", "value")
         self.geo_tree = ttk.Treeview(tree_frame, columns=geo_cols, show="headings")
         self.geo_tree.heading("property", text="Property")
@@ -252,24 +265,37 @@ class NetstatApp:
         self.geo_tree.configure(yscrollcommand=geo_scroll.set)
         self.geo_tree.grid(row=0, column=0, sticky="nsew")
         geo_scroll.grid(row=0, column=1, sticky="ns")
-        
-        map_frame = ttk.LabelFrame(geo_container, text="📍 Location Visualization")
-        map_frame.grid(row=0, column=1, sticky="nsew")
+
+        # --- Right Pane (Map) ---
+        map_frame = ttk.LabelFrame(paned_window, text="📍 Location Visualization")
         map_frame.grid_rowconfigure(0, weight=1)
         map_frame.grid_columnconfigure(0, weight=1)
 
         self.map_widget = tkintermapview.TkinterMapView(map_frame, corner_radius=0)
         self.map_widget.grid(row=0, column=0, sticky="nsew")
-        self.map_widget.set_position(28.53, 77.39)
-        self.map_widget.set_zoom(4)
-        
+        self.map_widget.set_position(28.6139, 77.2090)  # Default to Delhi, India
+        self.map_widget.set_zoom(5)
+
+        # <-- CHANGE: Add the frames to the PanedWindow with equal weight
+        paned_window.add(tree_frame, weight=1)
+        paned_window.add(map_frame, weight=1)
+
+        # <-- CHANGE: Put the placeholder inside the left `tree_frame` to center it correctly
+        self.ip_details_placeholder = ttk.Label(
+            tree_frame,  # Parent is now the left pane
+            text="Select a connection from the 'Connections' tab to see details here.",
+            font=("Arial", 11, "italic"),
+            foreground="grey",
+            wraplength=300  # Wraps text if the pane is too narrow
+        )
+        self.ip_details_placeholder.place(relx=0.5, rely=0.5, anchor='center')
     def create_domains_tab(self):
         self.tab_domains = ttk.Frame(self.tab_control)
         self.tab_control.add(self.tab_domains, text="🌐 Domains")
         self.tab_domains.grid_rowconfigure(1, weight=1)
         self.tab_domains.grid_columnconfigure(0, weight=1)
         header_font = self.ui_helper.get_scaled_font("Arial", 12, "bold")
-        domain_label = ttk.Label(self.tab_domains, text="DOMAIN NAME RESOLUTIONS & STATISTICS", 
+        domain_label = ttk.Label(self.tab_domains, text="DOMAIN NAME RESOLUTIONS & STATISTICS",
                                  font=header_font, foreground=self.colors["primary"])
         domain_label.grid(row=0, column=0, pady=5, sticky="w", padx=5)
 
@@ -300,14 +326,14 @@ class NetstatApp:
         button_frame.grid(row=2, column=0, sticky="ew", pady=5, padx=5)
         button_frame.grid_columnconfigure(1, weight=1)
 
-        lookup_btn = tk.Button(button_frame, text="🔎 Lookup IP Details", 
-                               command=self.lookup_ip_from_domain_tab, 
+        lookup_btn = tk.Button(button_frame, text="🔎 Lookup IP Details",
+                               command=self.lookup_ip_from_domain_tab,
                                bg=self.colors["info"], fg="white",
                                font=self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"]))
         lookup_btn.grid(row=0, column=0, sticky="w")
-        
-        export_domain_btn = tk.Button(button_frame, text="📤 Export Domain Data", 
-                                      command=self.export_domain_data, 
+
+        export_domain_btn = tk.Button(button_frame, text="📤 Export Domain Data",
+                                      command=self.export_domain_data,
                                       bg=self.colors["primary"], fg="white",
                                       font=self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"]))
         export_domain_btn.grid(row=0, column=1, sticky="e")
@@ -322,16 +348,16 @@ class NetstatApp:
         status_container = tk.Frame(self.root, bg=self.colors["bg"])
         status_container.grid(row=2, column=0, sticky="ew", padx=5, pady=5)
         status_container.grid_columnconfigure(0, weight=1)
-        
+
         status_info_frame = tk.Frame(status_container, bg=self.colors["bg"])
         status_info_frame.grid(row=0, column=0, sticky="ew", pady=2)
-        
+
         status_info_frame.grid_columnconfigure(0, weight=1)
         status_info_frame.grid_columnconfigure(1, weight=0)
-        
+
         status_frame = tk.Frame(status_info_frame, bg=self.colors["bg"])
         status_frame.grid(row=0, column=0, sticky="w")
-        
+
         status_font = self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"])
         self.status_var = tk.StringVar(value="🔴 Monitoring Stopped")
         self.conn_count_var = tk.StringVar(value="Connections: 0")
@@ -339,72 +365,72 @@ class NetstatApp:
         self.threat_api_source_var = tk.StringVar(value="Threat API: None")
         self.security_stats_var = tk.StringVar(value="🚨 Security Alerts: 0")
         self.general_stats_var = tk.StringVar(value="ℹ️ General Alerts: 0")
-        
-        self.status_label = tk.Label(status_frame, textvariable=self.status_var, 
+
+        self.status_label = tk.Label(status_frame, textvariable=self.status_var,
                                      bg=self.colors["bg"], fg=self.colors["dark"], font=status_font)
         self.status_label.grid(row=0, column=0, sticky="w")
-        
-        self.conn_count_label = tk.Label(status_frame, textvariable=self.conn_count_var, 
+
+        self.conn_count_label = tk.Label(status_frame, textvariable=self.conn_count_var,
                                          bg=self.colors["bg"], fg=self.colors["dark"], font=status_font)
         self.conn_count_label.grid(row=0, column=1, sticky="w", padx=(20, 0))
-        
-        self.api_source_label = tk.Label(status_frame, textvariable=self.api_source_var, 
+
+        self.api_source_label = tk.Label(status_frame, textvariable=self.api_source_var,
                                          bg=self.colors["bg"], fg=self.colors["dark"], font=status_font)
         self.api_source_label.grid(row=0, column=2, sticky="w", padx=(20, 0))
 
         self.threat_api_source_label = tk.Label(status_frame, textvariable=self.threat_api_source_var,
                                           bg=self.colors["bg"], fg=self.colors["dark"], font=status_font)
         self.threat_api_source_label.grid(row=0, column=3, sticky="w", padx=(20, 0))
-        
-        self.security_stats_label = tk.Label(status_frame, textvariable=self.security_stats_var, 
-                                             bg=self.colors["bg"], fg=self.colors["danger"], 
+
+        self.security_stats_label = tk.Label(status_frame, textvariable=self.security_stats_var,
+                                             bg=self.colors["bg"], fg=self.colors["danger"],
                                              font=status_font)
         self.security_stats_label.grid(row=0, column=4, sticky="w", padx=(20, 0))
-        
-        self.general_stats_label = tk.Label(status_frame, textvariable=self.general_stats_var, 
-                                            bg=self.colors["bg"], fg=self.colors["info"], 
+
+        self.general_stats_label = tk.Label(status_frame, textvariable=self.general_stats_var,
+                                            bg=self.colors["bg"], fg=self.colors["info"],
                                             font=status_font)
         self.general_stats_label.grid(row=0, column=5, sticky="w", padx=(20, 0))
-        
+
         export_frame = tk.Frame(status_info_frame, bg=self.colors["bg"])
         export_frame.grid(row=0, column=1, sticky="e")
-        
+
         export_font = self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"] - 1)
-        self.export_conn_btn = tk.Button(export_frame, text="📊 Export Connections", 
-                                         command=self.export_connections, 
+        self.export_conn_btn = tk.Button(export_frame, text="📊 Export Connections",
+                                         command=self.export_connections,
                                          bg=self.colors["primary"], fg="white",
                                          font=export_font, padx=5)
         self.export_conn_btn.grid(row=0, column=0, padx=2, pady=2)
-        
-        self.export_security_btn = tk.Button(export_frame, text="🚨 Export Security", 
-                                             command=self.export_security_alerts, 
+
+        self.export_security_btn = tk.Button(export_frame, text="🚨 Export Security",
+                                             command=self.export_security_alerts,
                                              bg=self.colors["danger"], fg="white",
                                              font=export_font, padx=5)
         self.export_security_btn.grid(row=0, column=1, padx=2, pady=2)
-        
-        self.export_general_btn = tk.Button(export_frame, text="ℹ️ Export General", 
-                                            command=self.export_general_alerts, 
+
+        self.export_general_btn = tk.Button(export_frame, text="ℹ️ Export General",
+                                            command=self.export_general_alerts,
                                             bg=self.colors["info"], fg="white",
                                             font=export_font, padx=5)
         self.export_general_btn.grid(row=1, column=0, padx=2, pady=2)
-        
-        self.clear_alerts_btn = tk.Button(export_frame, text="🗑️ Clear Alerts", 
-                                          command=self.clear_alert_history, 
+
+        self.clear_alerts_btn = tk.Button(export_frame, text="🗑️ Clear Alerts",
+                                          command=self.clear_alert_history,
                                           bg=self.colors["warning"], fg="white",
                                           font=export_font, padx=5)
         self.clear_alerts_btn.grid(row=1, column=1, padx=2, pady=2)
-        
+
         ctrl_frame = tk.Frame(status_container, bg=self.colors["bg"])
         ctrl_frame.grid(row=1, column=0, sticky="w", pady=2)
-        
+
         button_font = self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"], "bold")
-        self.start_btn = tk.Button(ctrl_frame, text="▶️ Start Monitoring", 
-                                   command=self.start_monitoring, 
+        self.start_btn = tk.Button(ctrl_frame, text="▶️ Start Monitoring",
+                                   command=self.start_monitoring,
                                    bg=self.colors["success"], fg="white",
                                    font=button_font, padx=10)
         self.start_btn.grid(row=0, column=0, padx=5, pady=2)
-        
-        self.stop_btn = tk.Button(ctrl_frame, text="⏹️ Stop Monitoring", 
+
+        self.stop_btn = tk.Button(ctrl_frame, text="⏹️ Stop Monitoring",
                                   command=self.stop_monitoring, state=tk.DISABLED,
                                   bg=self.colors["danger"], fg="white",
                                   font=button_font, padx=10)
@@ -415,10 +441,10 @@ class NetstatApp:
         if not selected:
             messagebox.showinfo("No Selection", "Please select an item from the domain list first.")
             return
-        
+
         item = self.domain_tree.item(selected[0])
         ip_address = item["values"][0]
-        
+
         for child_item in self.conn_tree.get_children():
             values = self.conn_tree.item(child_item)["values"]
             remote_addr = values[2].split(":")[0]
@@ -539,7 +565,7 @@ class NetstatApp:
         self.start_btn.config(state=tk.DISABLED)
         self.stop_btn.config(state=tk.NORMAL)
         self.status_var.set("🟢 Monitoring Active")
-        log("INFO", "Network monitoring started")
+        log("INFO", "Endpoint monitoring started")
 
     def stop_monitoring(self):
         if not self.is_monitoring:
@@ -558,28 +584,28 @@ class NetstatApp:
             try:
                 lines = run_netstat_windows()
                 recs = list(parse_netstat_lines(lines))
-                
+
                 with self.last_seen_lock:
                     self.last_seen = recs
-                
+
                 for r in recs:
                     try:
                         feed_record(r)
                     except Exception as e:
                         log("ERROR", f"Error feeding record: {e}")
-                    
+
                     if classify_internal_external(r.get("remote_ip")) == "external":
                         self.queue_ip_for_geo(r.get("remote_ip"))
-                    
+
                     self.track_domains(r)
-                
+
                 with self.domain_lock:
                     domain_state = {
                         'mapping': self.domain_mapping.copy(),
                         'counts': dict(self.domain_counts)
                     }
                 rolling_logs['domains'].info(f"Domain State: {json.dumps(domain_state, indent=2)}")
-                
+
             except Exception as e:
                 log("ERROR", f"Monitor loop error: {e}")
             time.sleep(CONFIG["poll_interval_seconds"])
@@ -588,18 +614,18 @@ class NetstatApp:
         remote_ip = record.get("remote_ip")
         if not remote_ip or remote_ip in ["0.0.0.0", "::", "*", ""]:
             return
-            
+
         domain = ""
         if remote_ip in self.ip_details:
             details = self.ip_details[remote_ip]
             if "reverse" in details and details["reverse"] != "Unknown":
                 domain = details["reverse"]
-        
+
         if not domain:
             with dns_lock:
                 if remote_ip in dns_cache and dns_cache[remote_ip]:
                     domain = dns_cache[remote_ip]
-        
+
         with self.domain_lock:
             self.domain_mapping[remote_ip] = domain
             self.domain_counts[remote_ip] += 1
@@ -607,25 +633,25 @@ class NetstatApp:
     def queue_ip_for_geo(self, ip):
         if not ip or ip in ["0.0.0.0", "::", "*", ""]:
             return
-        
+
         if isinstance(ip, tuple) and len(ip) == 2:
             ip = ip[0]
-        
+
         try:
             ipaddress.ip_address(ip)
         except ValueError:
             return
-        
+
         if ip in self.ip_details and self.ip_details[ip].get("status") != "queued":
             return
-            
+
         self.ip_details[ip] = {"status": "queued"}
-        
+
         def geo_callback(ip_addr, details):
             self.ip_details[ip_addr] = details
             self.api_source_var.set(f"API: {details.get('api_source', 'Unknown')}")
             self.threat_api_source_var.set(f"Threat API: {details.get('threat_api_source', 'None')}")
-        
+
         try:
             geo_queue.put_nowait((ip, geo_callback))
         except queue.Full:
@@ -695,21 +721,21 @@ class NetstatApp:
                 state = r.get('state', '')
                 remote_ip = r.get("remote_ip")
                 is_listening = state.upper() in ('LISTENING', 'LISTEN')
-                
+
                 if CONFIG["filters"]["show_listening_only"]:
                     if not is_listening:
                         continue
                 else:
                     if is_listening or remote_ip == "*":
                         continue
-                
+
                 if CONFIG["filters"]["exclude_zero_remote"] and remote_ip == "0.0.0.0":
                     continue
-                    
+
                 classification = classify_internal_external(remote_ip)
                 if CONFIG["filters"]["show_only_internal"] and classification != "internal":
                     continue
-                
+
                 if is_listening:
                     remote_addr = "N/A"
                     classification = "N/A"
@@ -722,7 +748,7 @@ class NetstatApp:
                 local_port = r.get("local_port")
                 local_addr = f"{r.get('local_ip')}" + (f":{local_port}" if local_port is not None else "")
                 process_name = r.get('process') or "Unknown"
-                
+
                 item = self.conn_tree.insert("", "end", values=(
                     r.get("proto", ""),
                     local_addr,
@@ -735,12 +761,12 @@ class NetstatApp:
                     geo.get("org", "N/A")[:30] + "..." if geo.get("org") and len(geo.get("org", "")) > 30 else geo.get("org", "N/A"),
                     geo.get("service", "N/A")
                 ))
-                
+
                 if classification == "external":
                     self.conn_tree.item(item, tags=("external",))
                 elif classification == "internal":
                     self.conn_tree.item(item, tags=("internal",))
-            
+
             if hasattr(self, 'column_configs'):
                 self.ui_helper.configure_responsive_column_widths(self.conn_tree, self.column_configs)
         except Exception as e:
@@ -762,8 +788,8 @@ class NetstatApp:
                 else:
                     classification_display = classification.title()
                 item = self.domain_tree.insert("", "end", values=(
-                    ip, 
-                    domain or "Resolving...", 
+                    ip,
+                    domain or "Resolving...",
                     count,
                     classification_display
                 ))
@@ -801,12 +827,12 @@ class NetstatApp:
             level = alert.get("level", "INFO")
             msg = alert.get("message", "")
             ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            
+
             severity = determine_alert_severity(alert_type, level)
-            
+
             if severity == "security":
                 rolling_logs['security_alerts'].info(f"[{level}] {msg}")
-                
+
                 self.sec_text.config(state="normal")
                 self.sec_text.insert(tk.END, f"[{ts}] ", "timestamp")
                 if level == "CRITICAL":
@@ -826,13 +852,13 @@ class NetstatApp:
                 })
                 if level == "CRITICAL":
                     self.root.after(0, lambda: messagebox.showwarning(
-                        f"🚨 CRITICAL SECURITY ALERT: {alert_type}", 
-                        msg, 
+                        f"🚨 CRITICAL SECURITY ALERT: {alert_type}",
+                        msg,
                         icon=messagebox.WARNING
                     ))
             else:
                 rolling_logs['general_alerts'].info(f"[{level}] {msg}")
-                
+
                 self.gen_text.config(state="normal")
                 self.gen_text.insert(tk.END, f"[{ts}] ", "timestamp")
                 if alert_type == "SUSPICIOUS":
@@ -884,9 +910,9 @@ class NetstatApp:
                     f"📊 Raw Connection: {ev.get('line_raw')}\n"
                     f"🖥️  Process Info: PID:{ev.get('pid')} | Process: {ev.get('process')}{geo_details}\n\n"
                 )
-                
+
                 rolling_logs['metadata'].info(meta)
-                
+
                 self.meta_text.config(state="normal")
                 tag = "security" if severity == "security" else "general"
                 subtype = alert.get("subtype")
@@ -899,6 +925,35 @@ class NetstatApp:
             log("ERROR", f"Error updating metadata display: {e}")
 
     def on_tree_select(self, event):
+        # === NEW: Part 1 - Remove the placeholder label on first click ===
+        if hasattr(self, 'ip_details_placeholder') and self.ip_details_placeholder:
+            self.ip_details_placeholder.destroy()
+            self.ip_details_placeholder = None  # Set to None to prevent errors
+
+        # Standard logic to get the selected item
+        if self.root.focus_get() != self.conn_tree and event is not None:
+            return
+        selected = self.conn_tree.selection()
+        if not selected:
+            return
+        item = self.conn_tree.item(selected[0])
+        values = item["values"]
+        if not values: return
+        remote_addr = values[2].split(":")[0]
+
+        # Clear previous details
+        for i in self.geo_tree.get_children():
+            self.geo_tree.delete(i)
+        self.map_widget.delete_all_marker()
+
+        # === NEW: Part 2 - Check if IP is internal and display a message ===
+        classification = classify_internal_external(remote_addr)
+        if classification in ["internal", "unknown"]:
+            self.geo_tree.insert("", "end", values=("Status", f"No external lookup for {classification} IPs."))
+            self.map_widget.set_position(20.5937, 78.9629)  # Reset map to default view
+            self.map_widget.set_zoom(4)
+            return  # Stop further processing
+
         if self.root.focus_get() != self.conn_tree and event is not None:
             return
 
@@ -909,12 +964,12 @@ class NetstatApp:
         values = item["values"]
         if not values: return
         remote_addr = values[2].split(":")[0]
-        
+
         for i in self.geo_tree.get_children():
             self.geo_tree.delete(i)
-        
+
         self.map_widget.delete_all_marker()
-            
+
         if remote_addr in self.ip_details:
             details = self.ip_details[remote_addr]
             display_details = [
@@ -939,7 +994,7 @@ class NetstatApp:
                 if len(display_value) > 50:
                     display_value = display_value[:47] + "..."
                 self.geo_tree.insert("", "end", values=(key, display_value))
-            
+
             location_str = details.get("location", "Unknown")
             if location_str and location_str != "Unknown":
                 try:
@@ -984,8 +1039,8 @@ class NetstatApp:
             return
         try:
             self._export_alerts_with_dialog(
-                self.security_alerts_history, 
-                "Security Alerts", 
+                self.security_alerts_history,
+                "Security Alerts",
                 "security_alerts"
             )
         except Exception as e:
@@ -998,8 +1053,8 @@ class NetstatApp:
             return
         try:
             self._export_alerts_with_dialog(
-                self.general_alerts_history, 
-                "General Alerts", 
+                self.general_alerts_history,
+                "General Alerts",
                 "general_alerts"
             )
         except Exception as e:
@@ -1029,8 +1084,8 @@ class NetstatApp:
                         classification = classify_internal_external(ip)
                         suspicious_tag = mark_suspicious_by_ip_or_host(ip) or mark_suspicious_by_ip_or_host(domain or "")
                         writer.writerow([
-                            ip, 
-                            domain or "Unknown", 
+                            ip,
+                            domain or "Unknown",
                             count,
                             classification,
                             suspicious_tag or "None"
@@ -1060,7 +1115,7 @@ class NetstatApp:
     def clear_alert_history(self):
         try:
             result = messagebox.askyesno(
-                "Clear Alerts", 
+                "Clear Alerts",
                 "Are you sure you want to clear all alert history?\n\nThis will also reset alert cooldowns.",
                 icon=messagebox.QUESTION
             )
@@ -1107,8 +1162,8 @@ class NetstatApp:
             with open(file_path, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow([
-                    "Protocol", "Local Address", "Remote Address", "State", 
-                    "PID", "Process", "Classification", "Country", 
+                    "Protocol", "Local Address", "Remote Address", "State",
+                    "PID", "Process", "Classification", "Country",
                     "Organization", "Service", "Suspicious", "Timestamp",
                     "Threat Status", "AbuseIPDB Score", "VirusTotal Detections"
                 ])
@@ -1170,7 +1225,7 @@ class NetstatApp:
             with open(file_path, 'w', newline='', encoding='utf-8') as f:
                 writer = csv.writer(f)
                 writer.writerow([
-                    "Timestamp", "Severity", "Level", "Type", "Message", 
+                    "Timestamp", "Severity", "Level", "Type", "Message",
                     "Remote IP", "Remote Port", "Local IP", "Local Port",
                     "PID", "Process", "Evidence Summary", "Subtype"
                 ])

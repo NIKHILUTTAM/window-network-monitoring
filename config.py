@@ -34,10 +34,10 @@ CONFIG = {
     "ipapi_api": "http://ip-api.com/json/{}",
     "rdap_api": "https://rdap.db.ripe.net/ip/{}",
     "abuseipdb_api": "https://api.abuseipdb.com/api/v2/check",
-    "abuseipdb_key": "897ff587b0e0971645c7439540221e32ab66eeafa18cd89d20cf01f9f5c3348ac788f3e19c0f7bf5",
+    "abuseipdb_key": "##paste your api key##",
     "virustotal_api": "https://www.virustotal.com/api/v3/ip_addresses/{}",
     "virustotal_url_lookup_api": "https://www.virustotal.com/api/v3/urls/{}",
-    "virustotal_key": "6ebbc35492cf2707f4d26930dda71d36440c4081e79781167a0d0353309c51d6",
+    "virustotal_key": "##paste your VT_api key## ",
     "threat_intel": {
         "abuseipdb_threshold": 75,
         "vt_malicious_threshold": 1

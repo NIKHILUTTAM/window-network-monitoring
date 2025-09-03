@@ -122,6 +122,35 @@ class NetstatApp:
 
         # Programmatically switch the view to the IP Details tab
         self.tab_control.select(self.tab_geo)
+
+    def on_domain_double_click(self, event):
+        """Handles a double-click on the Domains tab to find the IP and show details."""
+        selected = self.domain_tree.selection()
+        if not selected:
+            return
+
+        # Get the IP address from the selected row in the Domains tab
+        item = self.domain_tree.item(selected[0])
+        ip_address = item["values"][0]
+
+        # Search for this IP in the Connections tab's tree
+        found_item = None
+        for child_item in self.conn_tree.get_children():
+            # The remote IP is in the 3rd column (index 2)
+            remote_addr = self.conn_tree.item(child_item)["values"][2].split(":")[0]
+            if remote_addr == ip_address:
+                found_item = child_item
+                break
+
+        # If the IP was found in the connections list
+        if found_item:
+            self.conn_tree.selection_set(found_item)
+            self.conn_tree.focus(found_item)
+            self.on_tree_select(None)  # Trigger detail update
+            self.tab_control.select(self.tab_geo)  # Switch to the IP Details tab
+        else:
+            # Inform the user if the connection is no longer active
+            messagebox.showinfo("Not Found", f"The connection for IP {ip_address} is no longer active.")
     def create_responsive_tabs(self, parent):
         self.tab_control = ttk.Notebook(parent)
         self.tab_control.grid(row=1, column=0, sticky="nsew", padx=5, pady=5)
@@ -208,6 +237,7 @@ class NetstatApp:
             "org": {"ratio": 3.0, "min_width": 150},
             "service": {"ratio": 1.5, "min_width": 90}
         }
+
         for col in cols:
             self.conn_tree.heading(col, text=col.capitalize())
         v_scrollbar = ttk.Scrollbar(tree_container, orient="vertical", command=self.conn_tree.yview)
@@ -283,10 +313,10 @@ class NetstatApp:
         # <-- CHANGE: Put the placeholder inside the left `tree_frame` to center it correctly
         self.ip_details_placeholder = ttk.Label(
             tree_frame,  # Parent is now the left pane
-            text="Select a connection from the 'Connections' tab to see details here.",
+            text="double click a ip from the 'Connections/Domain/VTscore' tab to see details here.",
             font=("Arial", 11, "italic"),
             foreground="grey",
-            wraplength=300  # Wraps text if the pane is too narrow
+            wraplength=800  # Wraps text if the pane is too narrow
         )
         self.ip_details_placeholder.place(relx=0.5, rely=0.5, anchor='center')
     def create_domains_tab(self):
@@ -321,22 +351,30 @@ class NetstatApp:
         self.domain_tree.grid(row=0, column=0, sticky="nsew")
         domain_scroll_y.grid(row=0, column=1, sticky="ns")
         domain_scroll_x.grid(row=1, column=0, sticky="ew")
-
+        self.domain_tree.bind('<Double-1>', self.on_domain_double_click)
         button_frame = tk.Frame(self.tab_domains, bg=self.colors["bg"])
         button_frame.grid(row=2, column=0, sticky="ew", pady=5, padx=5)
         button_frame.grid_columnconfigure(1, weight=1)
 
-        lookup_btn = tk.Button(button_frame, text="🔎 Lookup IP Details",
-                               command=self.lookup_ip_from_domain_tab,
-                               bg=self.colors["info"], fg="white",
-                               font=self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"]))
-        lookup_btn.grid(row=0, column=0, sticky="w")
+        # lookup_btn = tk.Button(button_frame, text="🔎 Lookup IP Details",
+        #                        command=self.lookup_ip_from_domain_tab,
+        #                        bg=self.colors["info"], fg="white",
+        #                        font=self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"]))
+        # lookup_btn.grid(row=0, column=0, sticky="w")
 
         export_domain_btn = tk.Button(button_frame, text="📤 Export Domain Data",
                                       command=self.export_domain_data,
                                       bg=self.colors["primary"], fg="white",
                                       font=self.ui_helper.get_scaled_font("Arial", CONFIG["ui"]["base_font_size"]))
         export_domain_btn.grid(row=0, column=1, sticky="e")
+        self.domain_placeholder = ttk.Label(
+            tree_container, # Use tree_container so it's in the same space as the tree
+            text="click start monitoring to see the domain details",
+            font=("Arial", 11, "italic"),
+            foreground="red",
+            wraplength=1000
+        )
+        self.domain_placeholder.place(relx=0.5, rely=0.5, anchor="center")
 
     def create_forensics_tab(self):
         self.tab_forensics = ttk.Frame(self.tab_control)
@@ -779,6 +817,17 @@ class NetstatApp:
             with self.domain_lock:
                 domain_mapping_copy = self.domain_mapping.copy()
                 domain_counts_copy = dict(self.domain_counts)
+            if not domain_mapping_copy:
+                # If no data, ensure the placeholder is visible and hide the tree
+                if self.domain_placeholder:
+                    self.domain_placeholder.lift()  # Bring placeholder to the front
+                self.domain_tree.delete(*self.domain_tree.get_children())  # Clear tree just in case
+                return  # Stop the function here
+            else:
+                # If there is data, hide the placeholder
+                if self.domain_placeholder:
+                    self.domain_placeholder.lower()  # Send placeholder to the back
+
             for ip, domain in domain_mapping_copy.items():
                 count = domain_counts_copy.get(ip, 0)
                 classification = classify_internal_external(ip)

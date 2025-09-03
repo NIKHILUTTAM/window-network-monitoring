@@ -40,3 +40,5 @@
 2025-08-27 16:44:13,111 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
 2025-08-27 16:46:01,136 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
 2025-08-27 16:47:08,051 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-09-02 17:06:16,428 - [CRITICAL] Possible DDoS: * receiving connections at 50.1/s (threshold 50)
+2025-09-03 11:52:07,937 - [HIGH] IPv6 RA flood heuristic: fe80::a4c2:4a61:36c2:383%22 saw 6 link-local IPv6 entries in window

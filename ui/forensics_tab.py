@@ -110,6 +110,7 @@ class ForensicsTab:
         columns = ("ip", "score", "country", "domain", "risk")
         self.vt_tree = ttk.Treeview(results_frame, columns=columns, show="headings")
         self.vt_tree.grid(row=0, column=0, sticky="nsew")
+        self.vt_tree.bind('<Double-1>', self.on_vt_score_double_click)
 
         self.vt_tree.heading("ip", text="IP Address")
         self.vt_tree.heading("score", text="Detection Ratio (Malicious/Total)")
@@ -131,7 +132,6 @@ class ForensicsTab:
         self.vt_tree.tag_configure('medium', background='', foreground='#cfb413')
         self.vt_tree.tag_configure('low', background='', foreground='blue')
         self.vt_tree.tag_configure('unknown', foreground='grey')
-
     def export_vt_scores(self):
         self._export_treeview_data(
             self.vt_tree,
@@ -804,6 +804,37 @@ class ForensicsTab:
         self.update_suspicious_ips()
         self.update_vt_ip_scores()
 
+    def on_vt_score_double_click(self, event):
+        """Handles double-click on the VT Score tree to show details in the main IP tab."""
+        selected = self.vt_tree.selection()
+        if not selected:
+            return
+
+        # Get the IP address from the selected row (it's the first value)
+        item = self.vt_tree.item(selected[0])
+        ip_address = item["values"][0]
+
+        # Use the reference to the main app (self.app) to access its widgets
+        conn_tree = self.app.conn_tree
+
+        # Search for the IP in the main Connections tab
+        found_item = None
+        for child_item in conn_tree.get_children():
+            # The remote IP is in the 3rd column (index 2)
+            remote_addr = conn_tree.item(child_item)["values"][2].split(":")[0]
+            if remote_addr == ip_address:
+                found_item = child_item
+                break
+
+        if found_item:
+            # If found, use the main app's methods to show the details
+            conn_tree.selection_set(found_item)
+            conn_tree.focus(found_item)
+            self.app.on_tree_select(None)  # Trigger the detail update
+            self.app.tab_control.select(self.app.tab_geo)  # Switch to the IP Details tab
+        else:
+            # If the connection is no longer active, inform the user
+            messagebox.showinfo("Not Found", f"The connection for IP {ip_address} is no longer active.")
     def update_statistics(self, data):
         if not data:
             for prefix in ["total", "internal", "external"]:

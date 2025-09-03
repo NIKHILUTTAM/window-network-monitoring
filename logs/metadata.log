@@ -1629,3 +1629,457 @@
   VirusTotal Detections: N/A
 
 
+2025-09-02 16:45:32,954 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:56936     52.70.193.248:443      CLOSE_WAIT      3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:46:26,818 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54462     18.235.151.87:443      ESTABLISHED     3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:49:28,566 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:54462     18.235.151.87:443      CLOSE_WAIT      3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:51:29,406 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63831     18.211.84.139:443      ESTABLISHED     3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:54:31,645 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63831     18.211.84.139:443      CLOSE_WAIT      3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:56:25,976 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:56017     54.197.147.207:443     SYN_SENT        3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 16:59:29,096 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:56017     54.197.147.207:443     CLOSE_WAIT      3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 17:06:16,443 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: DDOS | Severity: SECURITY
+📊 Raw Connection: UDP    [fe80::a337:e905:7bb0:b0fa%13]:1900  *:*                                    7956
+🖥️  Process Info: PID:7956 | Process: svchost.exe
+
+
+2025-09-02 17:06:29,844 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59626     44.196.245.23:443      CLOSE_WAIT      3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 17:06:34,999 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55293     18.206.101.5:443       ESTABLISHED     3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-02 17:07:43,936 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55293     18.206.101.5:443       ESTABLISHED     3496
+🖥️  Process Info: PID:3496 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:34:43,683 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53914     34.200.85.59:443       TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:35:39,046 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:60258     34.225.176.141:443     CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:38:01,991 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:60860     18.211.84.139:443      ESTABLISHED     19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:43:40,889 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:60601     54.86.101.231:443      CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:47:38,558 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:62359     34.228.5.178:443       ESTABLISHED     19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:54:52,346 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59821     3.227.122.3:443        CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 09:57:14,881 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:52683     18.206.101.5:443       ESTABLISHED     19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 10:00:04,911 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:61727     44.250.74.229:443      ESTABLISHED     9004
+🖥️  Process Info: PID:9004 | Process: servicehost.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 10:00:16,298 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:52683     18.206.101.5:443       CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: 4.0
+  Country: US
+  Region: Virginia
+  City: Ashburn
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: 0/100
+  VirusTotal Detections: 0
+
+
+2025-09-03 10:53:41,074 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:55697     52.73.208.52:443       CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:29:33,659 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:49335     44.205.128.106:443     CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:38:47,346 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:56125     54.221.234.224:443     CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:40:44,853 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:56125     54.221.234.224:443     CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:44:39,437 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:59292     52.54.59.103:443       CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:50:27,203 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:53633     34.196.156.249:443     CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+
+2025-09-03 11:52:07,990 - === 🚨 SECURITY ALERT EVIDENCE ===
+🔍 Alert Type: IPv6_RA | Severity: SECURITY
+📊 Raw Connection: TCP    [fe80::a4c2:4a61:36c2:383%22]:58532  [fe80::7e4d:8fff:fecc:da7d%22]:631  TIME_WAIT       0
+🖥️  Process Info: PID:0 | Process: None
+
+
+2025-09-03 11:52:59,078 - === ℹ️ GENERAL ALERT EVIDENCE ===
+🔍 Alert Type: SUSPICIOUS | Severity: GENERAL
+📊 Raw Connection: TCP    10.226.50.89:63479     52.70.24.64:443        CLOSE_WAIT      19068
+🖥️  Process Info: PID:19068 | Process: EpicGamesLauncher.exe
+🌍 Geographic Details:
+  Organization: Unknown
+  Country: Unknown
+  Region: Unknown
+  City: Unknown
+  Service Type: Unknown
+
+🛡️ Threat Intelligence:
+  Threat Status: Unknown
+  AbuseIPDB Score: N/A/100
+  VirusTotal Detections: N/A
+
+

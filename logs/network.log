@@ -34888,3 +34888,51 @@
 2025-09-03 12:46:37,815 - INFO - INFO - Network monitoring stopped
 2025-09-03 12:46:38,817 - INFO - ERROR - Error stopping worker threads: 
 2025-09-03 12:46:38,817 - INFO - INFO - 🔚 Application shutdown complete
+2025-09-03 15:11:09,076 - INFO - INFO - 🚀 Starting Endpoint Security Monitor
+2025-09-03 15:11:10,680 - INFO - INFO - ✅ Application initialized successfully. Starting main loop...
+2025-09-03 15:11:27,949 - INFO - INFO - Endpoint monitoring started
+2025-09-03 15:11:36,622 - INFO - INFO - Network monitoring stopped
+2025-09-03 15:11:40,592 - INFO - WARNING - Geo queue full, skipping IP: 18.67.204.234
+2025-09-03 15:11:40,593 - INFO - WARNING - Geo queue full, skipping IP: 216.58.196.106
+2025-09-03 15:11:40,594 - INFO - WARNING - Geo queue full, skipping IP: 18.97.36.74
+2025-09-03 15:11:40,594 - INFO - WARNING - Geo queue full, skipping IP: 142.251.223.106
+2025-09-03 15:11:40,597 - INFO - WARNING - Geo queue full, skipping IP: 142.250.193.106
+2025-09-03 15:11:40,600 - INFO - WARNING - Geo queue full, skipping IP: 172.217.24.227
+2025-09-03 15:11:40,600 - INFO - WARNING - Geo queue full, skipping IP: 104.26.12.38
+2025-09-03 15:11:40,600 - INFO - WARNING - Geo queue full, skipping IP: 142.250.77.197
+2025-09-03 15:11:40,601 - INFO - WARNING - Geo queue full, skipping IP: 172.217.26.14
+2025-09-03 15:11:40,601 - INFO - WARNING - Geo queue full, skipping IP: 142.250.182.101
+2025-09-03 15:11:40,604 - INFO - WARNING - Geo queue full, skipping IP: 142.250.67.68
+2025-09-03 15:11:40,606 - INFO - WARNING - Geo queue full, skipping IP: 142.250.183.238
+2025-09-03 15:11:40,607 - INFO - WARNING - Geo queue full, skipping IP: 104.18.94.41
+2025-09-03 15:11:40,607 - INFO - WARNING - Geo queue full, skipping IP: 142.250.194.14
+2025-09-03 15:11:40,608 - INFO - WARNING - Geo queue full, skipping IP: 35.190.80.1
+2025-09-03 15:11:40,608 - INFO - WARNING - Geo queue full, skipping IP: 54.167.171.128
+2025-09-03 15:11:40,609 - INFO - WARNING - Geo queue full, skipping IP: 142.250.193.46
+2025-09-03 15:11:40,609 - INFO - WARNING - Geo queue full, skipping IP: 20.189.173.25
+2025-09-03 15:11:40,610 - INFO - WARNING - Geo queue full, skipping IP: 142.250.194.10
+2025-09-03 15:11:40,611 - INFO - WARNING - Geo queue full, skipping IP: 18.67.195.126
+2025-09-03 15:11:40,611 - INFO - WARNING - Geo queue full, skipping IP: 70.130.228.104
+2025-09-03 15:11:40,612 - INFO - WARNING - Geo queue full, skipping IP: 172.217.27.168
+2025-09-03 15:11:40,613 - INFO - WARNING - Geo queue full, skipping IP: 74.125.130.84
+2025-09-03 15:11:40,613 - INFO - WARNING - Geo queue full, skipping IP: 142.251.223.202
+2025-09-03 15:11:40,613 - INFO - WARNING - Geo queue full, skipping IP: 140.82.112.25
+2025-09-03 15:11:40,614 - INFO - WARNING - Geo queue full, skipping IP: 142.251.10.188
+2025-09-03 15:11:40,615 - INFO - WARNING - Geo queue full, skipping IP: 142.250.192.170
+2025-09-03 15:11:40,616 - INFO - WARNING - Geo queue full, skipping IP: 172.217.24.67
+2025-09-03 15:11:40,617 - INFO - WARNING - Geo queue full, skipping IP: 216.24.57.251
+2025-09-03 15:11:40,617 - INFO - WARNING - Geo queue full, skipping IP: 10.226.50.249
+2025-09-03 15:11:40,618 - INFO - WARNING - Geo queue full, skipping IP: 142.250.77.227
+2025-09-03 15:11:40,619 - INFO - WARNING - Geo queue full, skipping IP: 104.16.80.73
+2025-09-03 15:11:40,619 - INFO - WARNING - Geo queue full, skipping IP: 192.178.134.94
+2025-09-03 15:11:40,620 - INFO - WARNING - Geo queue full, skipping IP: 142.250.67.74
+2025-09-03 15:11:40,621 - INFO - WARNING - Geo queue full, skipping IP: 172.217.24.74
+2025-09-03 15:11:40,622 - INFO - WARNING - Geo queue full, skipping IP: 151.101.1.91
+2025-09-03 15:11:40,622 - INFO - WARNING - Geo queue full, skipping IP: 157.240.237.60
+2025-09-03 15:11:40,623 - INFO - WARNING - Geo queue full, skipping IP: 162.159.192.1
+2025-09-03 15:11:40,623 - INFO - WARNING - Geo queue full, skipping IP: 140.82.113.25
+2025-09-03 15:11:40,624 - INFO - WARNING - Geo queue full, skipping IP: 108.158.46.82
+2025-09-03 15:11:40,625 - INFO - WARNING - Geo queue full, skipping IP: 142.250.182.110
+2025-09-03 15:11:40,626 - INFO - WARNING - Geo queue full, skipping IP: 104.18.39.21
+2025-09-03 15:11:40,627 - INFO - WARNING - Geo queue full, skipping IP: 127.0.0.1
+2025-09-03 15:11:48,832 - INFO - INFO - 🔚 Application shutdown complete

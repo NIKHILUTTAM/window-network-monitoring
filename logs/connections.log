@@ -1,784 +1,169 @@
-2025-09-03 12:46:18,289 - Connection: TCP 10.226.50.89:50513 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,295 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,296 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,297 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,297 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,298 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,299 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,299 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,300 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,300 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:18,300 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,301 - Connection: TCP 10.226.50.89:58012 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,301 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,302 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,302 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,302 - Connection: TCP 10.226.50.89:59220 -> 172.217.26.42:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,302 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,304 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,304 - Connection: TCP 10.226.50.89:60309 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,304 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,306 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,308 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,309 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,309 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:18,310 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,311 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,312 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,313 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:18,315 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,316 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,317 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,318 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,319 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: ESTABLISHED PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:18,320 - Connection: TCP 10.226.50.89:62654 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,320 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,321 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,321 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:18,322 - Connection: TCP 10.226.50.89:63910 -> 193.0.6.151:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:18,323 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:18,323 - Connection: TCP 10.226.50.89:63914 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:18,323 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,324 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,325 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,325 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:18,326 - Connection: TCP 127.0.0.1:54329 -> 127.0.0.1:59801 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:18,326 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:18,327 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:18,327 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:18,327 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:18,328 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:18,328 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:18,328 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:18,329 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:18,329 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:18,331 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:18,331 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:18,331 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:18,332 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:18,332 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:18,333 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:18,334 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:18,335 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:18,335 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:18,336 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,336 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,336 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,337 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,337 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,337 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,339 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,339 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,340 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,340 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,341 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,341 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,341 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,343 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,344 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:18,344 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,344 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,345 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:18,346 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,346 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,346 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,348 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,348 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:18,349 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,349 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,350 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,350 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,350 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:18,352 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,353 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,353 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:18,354 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,354 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:18,355 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,356 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:18,357 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,357 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,357 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,358 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,359 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:18,359 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,360 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:18,361 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,361 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,362 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,363 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,363 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,363 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,364 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,365 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,365 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:18,366 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,919 - Connection: TCP 0.0.0.0:135 -> *:None State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:21,920 - Connection: TCP 0.0.0.0:445 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,921 - Connection: TCP 0.0.0.0:903 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:21,922 - Connection: TCP 0.0.0.0:913 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:21,922 - Connection: TCP 0.0.0.0:2968 -> *:None State: LISTENING PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:21,923 - Connection: TCP 0.0.0.0:5040 -> *:None State: LISTENING PID: 8928 Process: svchost.exe
-2025-09-03 12:46:21,923 - Connection: TCP 0.0.0.0:7680 -> *:None State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:21,924 - Connection: TCP 0.0.0.0:49664 -> *:None State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:21,924 - Connection: TCP 0.0.0.0:49665 -> *:None State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:21,925 - Connection: TCP 0.0.0.0:49666 -> *:None State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:21,925 - Connection: TCP 0.0.0.0:49667 -> *:None State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:21,926 - Connection: TCP 0.0.0.0:49668 -> *:None State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:21,926 - Connection: TCP 0.0.0.0:49706 -> *:None State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:21,927 - Connection: TCP 10.226.50.89:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,927 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53188 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,928 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53283 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,928 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53303 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,929 - Connection: TCP 10.226.50.89:49419 -> 4.213.25.240:443 State: ESTABLISHED PID: 5548 Process: svchost.exe
-2025-09-03 12:46:21,929 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,930 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,931 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,931 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,932 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,932 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,933 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,934 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,934 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:21,935 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,936 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,936 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,937 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,937 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,938 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,938 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,938 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,939 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,939 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,940 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:21,940 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,940 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,940 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,940 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:21,942 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,943 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,944 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,945 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,945 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: ESTABLISHED PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:21,945 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,946 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,946 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,947 - Connection: TCP 10.226.50.89:63910 -> 193.0.6.151:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,947 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,947 - Connection: TCP 10.226.50.89:63917 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,948 - Connection: TCP 10.226.50.89:63918 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,948 - Connection: TCP 10.226.50.89:63919 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,948 - Connection: TCP 10.226.50.89:63922 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,949 - Connection: TCP 10.226.50.89:63923 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,949 - Connection: TCP 10.226.50.89:63924 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,950 - Connection: TCP 10.226.50.89:63926 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,950 - Connection: TCP 10.226.50.89:63927 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,950 - Connection: TCP 10.226.50.89:63928 -> 172.67.70.74:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:21,951 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,951 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,951 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:21,951 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:21,953 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:21,953 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:21,954 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,954 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,955 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,955 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:21,955 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:21,955 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:21,956 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:21,956 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:21,956 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:21,957 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:21,957 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:21,957 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:21,958 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:21,958 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:21,958 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:21,959 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:21,959 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,959 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,959 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,961 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,962 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,962 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,962 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,962 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,962 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,963 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,963 - Connection: UDP 0.0.0.0:50782 -> 162.159.200.1:123 State:  PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:21,964 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,965 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,965 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,965 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,965 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:21,966 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,966 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,966 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:21,966 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,967 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,967 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,967 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,968 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:21,969 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,971 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,971 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:21,972 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,972 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:21,972 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,972 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:21,972 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,973 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,973 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,974 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,974 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:21,975 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,975 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:21,976 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,976 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,976 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,977 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,977 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,977 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,977 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,978 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,978 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:21,978 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,111 - Connection: TCP 0.0.0.0:135 -> *:None State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:25,112 - Connection: TCP 0.0.0.0:445 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,113 - Connection: TCP 0.0.0.0:903 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:25,114 - Connection: TCP 0.0.0.0:913 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:25,114 - Connection: TCP 0.0.0.0:2968 -> *:None State: LISTENING PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:25,115 - Connection: TCP 0.0.0.0:5040 -> *:None State: LISTENING PID: 8928 Process: svchost.exe
-2025-09-03 12:46:25,115 - Connection: TCP 0.0.0.0:7680 -> *:None State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:25,116 - Connection: TCP 0.0.0.0:49664 -> *:None State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:25,117 - Connection: TCP 0.0.0.0:49665 -> *:None State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:25,118 - Connection: TCP 0.0.0.0:49666 -> *:None State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:25,118 - Connection: TCP 0.0.0.0:49667 -> *:None State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:25,118 - Connection: TCP 0.0.0.0:49668 -> *:None State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:25,119 - Connection: TCP 0.0.0.0:49706 -> *:None State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:25,120 - Connection: TCP 10.226.50.89:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,120 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53188 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,121 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53283 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,122 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53303 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,122 - Connection: TCP 10.226.50.89:49419 -> 4.213.25.240:443 State: ESTABLISHED PID: 5548 Process: svchost.exe
-2025-09-03 12:46:25,123 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,123 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,124 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,125 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,127 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,129 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,130 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,131 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,133 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:25,135 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,136 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,136 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,139 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,139 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,139 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,141 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,143 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,144 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,145 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,146 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:25,148 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,149 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,151 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,153 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:25,154 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,156 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,157 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,158 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,159 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: ESTABLISHED PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:25,160 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,161 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,161 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,162 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,165 - Connection: TCP 10.226.50.89:63928 -> 172.67.70.74:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,166 - Connection: TCP 10.226.50.89:63932 -> 34.54.88.138:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,167 - Connection: TCP 10.226.50.89:63934 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:25,168 - Connection: TCP 10.226.50.89:63935 -> 34.117.59.81:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:25,169 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,170 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,171 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:25,172 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:25,172 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:25,174 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:25,175 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,175 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,176 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,176 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:25,177 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:25,177 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:25,177 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:25,179 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:25,179 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:25,181 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:25,181 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:25,182 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:25,182 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:25,183 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:25,184 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:25,185 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:25,185 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,186 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,186 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,187 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,188 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,188 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,189 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,189 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,190 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,190 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,191 - Connection: UDP 0.0.0.0:50783 -> 162.159.200.1:123 State:  PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:25,193 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,193 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,193 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,195 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,195 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:25,196 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,197 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,198 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:25,198 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,198 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,199 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,200 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,200 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:25,201 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,201 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,201 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,202 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,202 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:25,203 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,203 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,204 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:25,204 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,206 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:25,206 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,207 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:25,207 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,208 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,208 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,208 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,209 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:25,210 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,211 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:25,212 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,213 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,213 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,214 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,215 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,215 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,216 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,216 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,217 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:25,217 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,361 - Connection: TCP 0.0.0.0:135 -> *:None State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:28,363 - Connection: TCP 0.0.0.0:445 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,364 - Connection: TCP 0.0.0.0:903 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:28,365 - Connection: TCP 0.0.0.0:913 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:28,365 - Connection: TCP 0.0.0.0:2968 -> *:None State: LISTENING PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:28,366 - Connection: TCP 0.0.0.0:5040 -> *:None State: LISTENING PID: 8928 Process: svchost.exe
-2025-09-03 12:46:28,366 - Connection: TCP 0.0.0.0:7680 -> *:None State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:28,367 - Connection: TCP 0.0.0.0:49664 -> *:None State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:28,367 - Connection: TCP 0.0.0.0:49665 -> *:None State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:28,368 - Connection: TCP 0.0.0.0:49666 -> *:None State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:28,368 - Connection: TCP 0.0.0.0:49667 -> *:None State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:28,369 - Connection: TCP 0.0.0.0:49668 -> *:None State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:28,369 - Connection: TCP 0.0.0.0:49706 -> *:None State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:28,370 - Connection: TCP 10.226.50.89:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,371 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53188 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,372 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53283 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,374 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53303 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,374 - Connection: TCP 10.226.50.89:49419 -> 4.213.25.240:443 State: ESTABLISHED PID: 5548 Process: svchost.exe
-2025-09-03 12:46:28,375 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,377 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,378 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,379 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,380 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,381 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,382 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,384 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,386 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:28,387 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,388 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,389 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,390 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,391 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,392 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,393 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,395 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,396 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,397 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,398 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:28,400 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,401 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,402 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,404 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:28,406 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,408 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,409 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,410 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,411 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: ESTABLISHED PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:28,413 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,414 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,414 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,416 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,418 - Connection: TCP 10.226.50.89:63928 -> 172.67.70.74:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,419 - Connection: TCP 10.226.50.89:63932 -> 34.54.88.138:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,420 - Connection: TCP 10.226.50.89:63935 -> 34.117.59.81:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:28,422 - Connection: TCP 10.226.50.89:63937 -> 193.0.6.151:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:28,423 - Connection: TCP 10.226.50.89:63938 -> 10.226.51.64:7680 State: SYN_SENT PID: 16492 Process: svchost.exe
-2025-09-03 12:46:28,423 - Connection: TCP 10.226.50.89:63939 -> 10.226.55.9:7680 State: ESTABLISHED PID: 16492 Process: svchost.exe
-2025-09-03 12:46:28,424 - Connection: TCP 10.226.50.89:63941 -> 199.71.0.160:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:28,425 - Connection: TCP 10.226.50.89:63942 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:28,427 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,427 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,429 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:28,430 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:28,431 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:28,431 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:28,432 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,432 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,433 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,433 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:28,434 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:28,434 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:28,435 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:28,436 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:28,437 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:28,437 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:28,438 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:28,439 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:28,439 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:28,440 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:28,440 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:28,441 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:28,441 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,442 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,442 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,443 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,444 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,444 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,445 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,446 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,446 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,447 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,447 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,448 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,449 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,449 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,450 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:28,450 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,451 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,452 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:28,453 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,453 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,454 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,455 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,456 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:28,457 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,457 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,458 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,458 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,459 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:28,460 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,460 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,461 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:28,461 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,462 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:28,462 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,463 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:28,463 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,464 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,464 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,465 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,466 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:28,467 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,467 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:28,468 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,468 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,469 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,470 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,470 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,471 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,471 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,472 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,472 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:28,473 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,553 - Connection: TCP 0.0.0.0:135 -> *:None State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:31,554 - Connection: TCP 0.0.0.0:445 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,555 - Connection: TCP 0.0.0.0:903 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:31,555 - Connection: TCP 0.0.0.0:913 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:31,555 - Connection: TCP 0.0.0.0:2968 -> *:None State: LISTENING PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:31,555 - Connection: TCP 0.0.0.0:5040 -> *:None State: LISTENING PID: 8928 Process: svchost.exe
-2025-09-03 12:46:31,556 - Connection: TCP 0.0.0.0:7680 -> *:None State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:31,557 - Connection: TCP 0.0.0.0:49664 -> *:None State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:31,558 - Connection: TCP 0.0.0.0:49665 -> *:None State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:31,558 - Connection: TCP 0.0.0.0:49666 -> *:None State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:31,559 - Connection: TCP 0.0.0.0:49667 -> *:None State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:31,559 - Connection: TCP 0.0.0.0:49668 -> *:None State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:31,559 - Connection: TCP 0.0.0.0:49706 -> *:None State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:31,559 - Connection: TCP 10.226.50.89:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,560 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53188 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,561 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53283 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,561 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53303 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,562 - Connection: TCP 10.226.50.89:49419 -> 4.213.25.240:443 State: ESTABLISHED PID: 5548 Process: svchost.exe
-2025-09-03 12:46:31,562 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,563 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,564 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,565 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,565 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,566 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,567 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,569 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,569 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:31,571 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,571 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,572 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,573 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,573 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,573 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,574 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,576 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,576 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,577 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,578 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:31,579 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,579 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,581 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,582 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:31,583 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,584 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,584 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,586 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,587 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: ESTABLISHED PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:31,588 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,589 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,590 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,590 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,592 - Connection: TCP 10.226.50.89:63928 -> 172.67.70.74:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,592 - Connection: TCP 10.226.50.89:63932 -> 34.54.88.138:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,593 - Connection: TCP 10.226.50.89:63935 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,594 - Connection: TCP 10.226.50.89:63938 -> 10.226.51.64:7680 State: SYN_SENT PID: 16492 Process: svchost.exe
-2025-09-03 12:46:31,594 - Connection: TCP 10.226.50.89:63939 -> 10.226.55.9:7680 State: ESTABLISHED PID: 16492 Process: svchost.exe
-2025-09-03 12:46:31,594 - Connection: TCP 10.226.50.89:63941 -> 199.71.0.160:443 State: FIN_WAIT_1 PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:31,596 - Connection: TCP 10.226.50.89:63945 -> 172.67.70.74:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:31,597 - Connection: TCP 10.226.50.89:63947 -> 34.54.88.138:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:31,598 - Connection: TCP 10.226.50.89:63948 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:31,599 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,600 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,600 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:31,600 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:31,602 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:31,602 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:31,602 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,603 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,603 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,604 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:31,604 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:31,604 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:31,605 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:31,605 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:31,606 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:31,607 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:31,607 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:31,607 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:31,608 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:31,609 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:31,609 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:31,610 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:31,610 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,610 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,610 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,610 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,615 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,615 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,615 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,616 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,617 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,617 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,617 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,618 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,621 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,621 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,621 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:31,621 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,622 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,624 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:31,625 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,625 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,626 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,627 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,628 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:31,629 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,629 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,629 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,630 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,630 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:31,631 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,631 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,631 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:31,632 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,632 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:31,633 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,633 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:31,634 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,634 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,634 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,635 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,635 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:31,635 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,636 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:31,637 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,638 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,638 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,640 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,640 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,641 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,641 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,642 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,643 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:31,643 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,732 - Connection: TCP 0.0.0.0:135 -> *:None State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:34,732 - Connection: TCP 0.0.0.0:445 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,733 - Connection: TCP 0.0.0.0:903 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:34,733 - Connection: TCP 0.0.0.0:913 -> *:None State: LISTENING PID: 5520 Process: vmware-authd.exe
-2025-09-03 12:46:34,733 - Connection: TCP 0.0.0.0:2968 -> *:None State: LISTENING PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:34,733 - Connection: TCP 0.0.0.0:5040 -> *:None State: LISTENING PID: 8928 Process: svchost.exe
-2025-09-03 12:46:34,735 - Connection: TCP 0.0.0.0:7680 -> *:None State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:34,735 - Connection: TCP 0.0.0.0:49664 -> *:None State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:34,736 - Connection: TCP 0.0.0.0:49665 -> *:None State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:34,736 - Connection: TCP 0.0.0.0:49666 -> *:None State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:34,737 - Connection: TCP 0.0.0.0:49667 -> *:None State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:34,737 - Connection: TCP 0.0.0.0:49668 -> *:None State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:34,737 - Connection: TCP 0.0.0.0:49706 -> *:None State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:34,737 - Connection: TCP 10.226.50.89:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,739 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53188 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,739 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53283 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,740 - Connection: TCP 10.226.50.89:7680 -> 10.226.55.9:53303 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,740 - Connection: TCP 10.226.50.89:49419 -> 4.213.25.240:443 State: ESTABLISHED PID: 5548 Process: svchost.exe
-2025-09-03 12:46:34,741 - Connection: TCP 10.226.50.89:50858 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,741 - Connection: TCP 10.226.50.89:51128 -> 142.251.43.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,742 - Connection: TCP 10.226.50.89:51684 -> 142.250.182.106:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,743 - Connection: TCP 10.226.50.89:52023 -> 10.226.50.106:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,743 - Connection: TCP 10.226.50.89:53880 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,744 - Connection: TCP 10.226.50.89:54955 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,746 - Connection: TCP 10.226.50.89:55755 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,747 - Connection: TCP 10.226.50.89:57176 -> 172.217.26.42:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,748 - Connection: TCP 10.226.50.89:57489 -> 140.82.112.26:443 State: ESTABLISHED PID: 17792 Process: GitHubDesktop.exe
-2025-09-03 12:46:34,749 - Connection: TCP 10.226.50.89:57886 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,750 - Connection: TCP 10.226.50.89:58701 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,750 - Connection: TCP 10.226.50.89:58702 -> 18.172.78.12:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,751 - Connection: TCP 10.226.50.89:58887 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,752 - Connection: TCP 10.226.50.89:59368 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,752 - Connection: TCP 10.226.50.89:59749 -> 142.250.76.67:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,753 - Connection: TCP 10.226.50.89:60336 -> 142.250.193.46:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,754 - Connection: TCP 10.226.50.89:61990 -> 74.125.68.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,754 - Connection: TCP 10.226.50.89:62377 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,754 - Connection: TCP 10.226.50.89:62409 -> 142.250.194.14:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,756 - Connection: TCP 10.226.50.89:62410 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
-2025-09-03 12:46:34,757 - Connection: TCP 10.226.50.89:62415 -> 20.207.73.82:80 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,758 - Connection: TCP 10.226.50.89:62417 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,759 - Connection: TCP 10.226.50.89:62419 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,760 - Connection: TCP 10.226.50.89:62420 -> 34.49.50.137:443 State: ESTABLISHED PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:34,761 - Connection: TCP 10.226.50.89:62422 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,761 - Connection: TCP 10.226.50.89:62423 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,762 - Connection: TCP 10.226.50.89:62424 -> 18.66.41.104:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,763 - Connection: TCP 10.226.50.89:62425 -> 18.172.78.102:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,763 - Connection: TCP 10.226.50.89:62426 -> 3.223.63.155:443 State: CLOSE_WAIT PID: 19068 Process: EpicGamesLauncher.exe
-2025-09-03 12:46:34,765 - Connection: TCP 10.226.50.89:63887 -> 142.250.76.67:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,766 - Connection: TCP 10.226.50.89:63888 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,767 - Connection: TCP 10.226.50.89:63907 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,768 - Connection: TCP 10.226.50.89:63912 -> 199.71.0.160:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,769 - Connection: TCP 10.226.50.89:63928 -> 172.67.70.74:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,770 - Connection: TCP 10.226.50.89:63932 -> 34.54.88.138:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,771 - Connection: TCP 10.226.50.89:63935 -> 34.117.59.81:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,772 - Connection: TCP 10.226.50.89:63938 -> 10.226.51.64:7680 State: SYN_SENT PID: 16492 Process: svchost.exe
-2025-09-03 12:46:34,772 - Connection: TCP 10.226.50.89:63939 -> 10.226.55.9:7680 State: ESTABLISHED PID: 16492 Process: svchost.exe
-2025-09-03 12:46:34,773 - Connection: TCP 10.226.50.89:63941 -> 199.71.0.160:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,774 - Connection: TCP 10.226.50.89:63945 -> 172.67.70.74:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,775 - Connection: TCP 10.226.50.89:63947 -> 34.54.88.138:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,776 - Connection: TCP 10.226.50.89:63950 -> 34.117.59.81:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:34,777 - Connection: TCP 10.226.50.89:63952 -> 151.101.65.91:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:34,779 - Connection: TCP 10.226.50.89:63953 -> 193.0.6.151:443 State: ESTABLISHED PID: 4056 Process: python3.11.exe
-2025-09-03 12:46:34,780 - Connection: TCP 10.226.50.89:64336 -> 10.226.54.4:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,780 - Connection: TCP 10.226.50.89:64339 -> 10.226.55.9:7680 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,781 - Connection: TCP 10.226.50.89:64450 -> 172.217.26.110:443 State: TIME_WAIT PID: 0 Process: None
-2025-09-03 12:46:34,782 - Connection: TCP 10.226.50.89:65271 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
-2025-09-03 12:46:34,783 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
-2025-09-03 12:46:34,783 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
-2025-09-03 12:46:34,783 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,783 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,784 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,785 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
-2025-09-03 12:46:34,785 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
-2025-09-03 12:46:34,785 - Connection: TCP :::7680 -> :::0 State: LISTENING PID: 16492 Process: svchost.exe
-2025-09-03 12:46:34,785 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
-2025-09-03 12:46:34,787 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
-2025-09-03 12:46:34,787 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
-2025-09-03 12:46:34,788 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
-2025-09-03 12:46:34,788 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
-2025-09-03 12:46:34,789 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
-2025-09-03 12:46:34,790 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
-2025-09-03 12:46:34,790 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
-2025-09-03 12:46:34,790 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:34,790 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
-2025-09-03 12:46:34,791 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,791 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,791 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,792 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,792 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,793 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,793 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,793 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,793 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,795 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,795 - Connection: UDP 0.0.0.0:65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,795 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,796 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,796 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,796 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:34,798 - Connection: UDP 10.226.50.89:54575 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,798 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,798 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
-2025-09-03 12:46:34,799 - Connection: UDP 127.0.0.1:54576 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,799 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,800 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,800 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,800 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:34,801 - Connection: UDP 192.168.30.1:54573 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,801 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,802 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,802 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,803 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:34,803 - Connection: UDP 192.168.56.1:54572 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,803 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,803 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
-2025-09-03 12:46:34,805 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,805 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
-2025-09-03 12:46:34,805 - Connection: UDP 192.168.137.1:54574 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,806 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
-2025-09-03 12:46:34,806 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,806 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,806 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,806 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,808 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
-2025-09-03 12:46:34,809 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,809 - Connection: UDP :::65131 -> *:None State:  PID: 1048 Process: svchost.exe
-2025-09-03 12:46:34,810 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,810 - Connection: UDP ::1:54571 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,811 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,811 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54569 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,811 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,812 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54567 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,812 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,812 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54568 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,813 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
-2025-09-03 12:46:34,813 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54570 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,544 - Connection: TCP 10.226.50.89:57287 -> 142.250.192.170:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,551 - Connection: TCP 10.226.50.89:57384 -> 172.217.24.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,551 - Connection: TCP 10.226.50.89:57385 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,552 - Connection: TCP 10.226.50.89:57426 -> 142.251.223.202:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,553 - Connection: TCP 10.226.50.89:57441 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,554 - Connection: TCP 10.226.50.89:57442 -> 142.250.183.238:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,554 - Connection: TCP 10.226.50.89:57487 -> 172.217.24.67:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,554 - Connection: TCP 10.226.50.89:57619 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,554 - Connection: TCP 10.226.50.89:57710 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,555 - Connection: TCP 10.226.50.89:57783 -> 216.24.57.251:443 State: ESTABLISHED PID: 21748 Process: Code.exe
+2025-09-03 15:11:33,555 - Connection: TCP 10.226.50.89:57784 -> 216.24.57.251:443 State: ESTABLISHED PID: 21748 Process: Code.exe
+2025-09-03 15:11:33,556 - Connection: TCP 10.226.50.89:57955 -> 10.226.50.249:8009 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,556 - Connection: TCP 10.226.50.89:58154 -> 104.26.12.38:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,556 - Connection: TCP 10.226.50.89:58184 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,557 - Connection: TCP 10.226.50.89:58208 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,557 - Connection: TCP 10.226.50.89:58271 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,557 - Connection: TCP 10.226.50.89:58310 -> 142.250.182.46:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,559 - Connection: TCP 10.226.50.89:58431 -> 142.250.77.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,559 - Connection: TCP 10.226.50.89:58437 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,559 - Connection: TCP 10.226.50.89:58461 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,560 - Connection: TCP 10.226.50.89:58465 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,560 - Connection: TCP 10.226.50.89:58597 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,561 - Connection: TCP 10.226.50.89:58636 -> 142.250.183.238:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,561 - Connection: TCP 10.226.50.89:58654 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,561 - Connection: TCP 10.226.50.89:58766 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,561 - Connection: TCP 10.226.50.89:58966 -> 142.250.183.238:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,562 - Connection: TCP 10.226.50.89:59116 -> 172.217.24.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,562 - Connection: TCP 10.226.50.89:59132 -> 104.16.80.73:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,563 - Connection: TCP 10.226.50.89:59152 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,563 - Connection: TCP 10.226.50.89:59270 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,563 - Connection: TCP 10.226.50.89:59362 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,564 - Connection: TCP 10.226.50.89:59539 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,565 - Connection: TCP 10.226.50.89:59709 -> 74.125.130.84:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,565 - Connection: TCP 10.226.50.89:59712 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,565 - Connection: TCP 10.226.50.89:60010 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,566 - Connection: TCP 10.226.50.89:60245 -> 142.250.67.74:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,566 - Connection: TCP 10.226.50.89:60301 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,566 - Connection: TCP 10.226.50.89:60343 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,567 - Connection: TCP 10.226.50.89:60358 -> 142.250.67.74:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,567 - Connection: TCP 10.226.50.89:60493 -> 172.217.24.74:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,567 - Connection: TCP 10.226.50.89:60509 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,568 - Connection: TCP 10.226.50.89:60566 -> 104.18.94.41:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,568 - Connection: TCP 10.226.50.89:60582 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,568 - Connection: TCP 10.226.50.89:60678 -> 142.251.10.188:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,568 - Connection: TCP 10.226.50.89:60739 -> 104.26.12.38:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,568 - Connection: TCP 10.226.50.89:60892 -> 172.217.24.74:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,569 - Connection: TCP 10.226.50.89:61099 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,569 - Connection: TCP 10.226.50.89:61169 -> 192.178.134.94:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,570 - Connection: TCP 10.226.50.89:61177 -> 151.101.1.91:443 State: ESTABLISHED PID: 16064 Process: python3.11.exe
+2025-09-03 15:11:33,570 - Connection: TCP 10.226.50.89:61190 -> 74.125.130.84:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,570 - Connection: TCP 10.226.50.89:61215 -> 142.250.182.46:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,571 - Connection: TCP 10.226.50.89:61420 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,571 - Connection: TCP 10.226.50.89:61675 -> 172.217.24.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,571 - Connection: TCP 10.226.50.89:61716 -> 142.250.182.46:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,572 - Connection: TCP 10.226.50.89:61790 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,573 - Connection: TCP 10.226.50.89:62162 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,573 - Connection: TCP 10.226.50.89:62198 -> 142.250.194.14:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,573 - Connection: TCP 10.226.50.89:62311 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,574 - Connection: TCP 10.226.50.89:62352 -> 157.240.237.60:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,574 - Connection: TCP 10.226.50.89:62423 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,574 - Connection: TCP 10.226.50.89:62603 -> 142.250.182.46:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,575 - Connection: TCP 10.226.50.89:62604 -> 162.159.192.1:443 State: ESTABLISHED PID: 4772 Process: warp-svc.exe
+2025-09-03 15:11:33,575 - Connection: TCP 10.226.50.89:62626 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,575 - Connection: TCP 10.226.50.89:63501 -> 142.250.77.197:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,576 - Connection: TCP 10.226.50.89:63570 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,576 - Connection: TCP 10.226.50.89:63583 -> 216.58.196.106:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,577 - Connection: TCP 10.226.50.89:63653 -> 172.217.24.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,577 - Connection: TCP 10.226.50.89:63720 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,577 - Connection: TCP 10.226.50.89:63780 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,578 - Connection: TCP 10.226.50.89:63797 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,578 - Connection: TCP 10.226.50.89:63851 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,578 - Connection: TCP 10.226.50.89:63939 -> 140.82.113.25:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,578 - Connection: TCP 10.226.50.89:64045 -> 172.217.24.227:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,579 - Connection: TCP 10.226.50.89:64348 -> 108.158.46.82:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,579 - Connection: TCP 10.226.50.89:64395 -> 142.250.182.110:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,580 - Connection: TCP 10.226.50.89:64408 -> 172.217.26.14:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,580 - Connection: TCP 10.226.50.89:64476 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,580 - Connection: TCP 10.226.50.89:64651 -> 216.58.196.106:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,581 - Connection: TCP 10.226.50.89:64692 -> 104.18.94.41:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,581 - Connection: TCP 10.226.50.89:64831 -> 142.250.182.46:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,581 - Connection: TCP 10.226.50.89:64848 -> 142.250.183.238:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,583 - Connection: TCP 10.226.50.89:64921 -> 142.250.183.238:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,583 - Connection: TCP 10.226.50.89:65072 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,584 - Connection: TCP 10.226.50.89:65099 -> 104.18.39.21:443 State: ESTABLISHED PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,584 - Connection: TCP 10.226.50.89:65438 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,584 - Connection: TCP 10.226.50.89:65499 -> 10.226.0.11:53 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,585 - Connection: TCP 10.226.50.89:65518 -> 192.178.134.94:443 State: TIME_WAIT PID: 0 Process: None
+2025-09-03 15:11:33,585 - Connection: TCP 127.0.0.1:57786 -> *:None State: LISTENING PID: 21748 Process: Code.exe
+2025-09-03 15:11:33,585 - Connection: TCP 127.0.0.1:63342 -> *:None State: LISTENING PID: 11596 Process: pycharm64.exe
+2025-09-03 15:11:33,585 - Connection: TCP 127.0.0.1:64394 -> *:None State: LISTENING PID: 21268 Process: GitHubDesktop.exe
+2025-09-03 15:11:33,586 - Connection: TCP 192.168.30.1:139 -> *:None State: LISTENING PID: 4 Process: System
+2025-09-03 15:11:33,586 - Connection: TCP 192.168.56.1:139 -> *:None State: LISTENING PID: 4 Process: System
+2025-09-03 15:11:33,587 - Connection: TCP 192.168.137.1:139 -> *:None State: LISTENING PID: 4 Process: System
+2025-09-03 15:11:33,587 - Connection: TCP :::135 -> :::0 State: LISTENING PID: 1532 Process: svchost.exe
+2025-09-03 15:11:33,587 - Connection: TCP :::445 -> :::0 State: LISTENING PID: 4 Process: System
+2025-09-03 15:11:33,588 - Connection: TCP :::49664 -> :::0 State: LISTENING PID: 1208 Process: lsass.exe
+2025-09-03 15:11:33,588 - Connection: TCP :::49665 -> :::0 State: LISTENING PID: 1032 Process: wininit.exe
+2025-09-03 15:11:33,588 - Connection: TCP :::49666 -> :::0 State: LISTENING PID: 2552 Process: svchost.exe
+2025-09-03 15:11:33,588 - Connection: TCP :::49667 -> :::0 State: LISTENING PID: 3116 Process: svchost.exe
+2025-09-03 15:11:33,588 - Connection: TCP :::49668 -> :::0 State: LISTENING PID: 4516 Process: spoolsv.exe
+2025-09-03 15:11:33,590 - Connection: TCP :::49706 -> :::0 State: LISTENING PID: 1180 Process: services.exe
+2025-09-03 15:11:33,590 - Connection: TCP ::1:42050 -> :::0 State: LISTENING PID: 18520 Process: OneDrive.Sync.Service.exe
+2025-09-03 15:11:33,591 - Connection: TCP ::1:49669 -> :::0 State: LISTENING PID: 5088 Process: jhi_service.exe
+2025-09-03 15:11:33,591 - Connection: UDP 0.0.0.0:123 -> *:None State:  PID: 12732 Process: svchost.exe
+2025-09-03 15:11:33,591 - Connection: UDP 0.0.0.0:5050 -> *:None State:  PID: 8928 Process: svchost.exe
+2025-09-03 15:11:33,592 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,592 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,592 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,593 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,593 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,594 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,595 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,595 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,595 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,596 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,596 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,597 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,597 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,597 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,598 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,598 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,598 - Connection: UDP 0.0.0.0:5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,599 - Connection: UDP 0.0.0.0:5355 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,599 - Connection: UDP 0.0.0.0:61430 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,599 - Connection: UDP 10.226.50.89:137 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,599 - Connection: UDP 10.226.50.89:138 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,599 - Connection: UDP 10.226.50.89:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,600 - Connection: UDP 10.226.50.89:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
+2025-09-03 15:11:33,600 - Connection: UDP 10.226.50.89:54263 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,601 - Connection: UDP 127.0.0.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,601 - Connection: UDP 127.0.0.1:50976 -> 127.0.0.1:50976 State:  PID: 5080 Process: svchost.exe
+2025-09-03 15:11:33,601 - Connection: UDP 127.0.0.1:54264 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,602 - Connection: UDP 192.168.30.1:137 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,602 - Connection: UDP 192.168.30.1:138 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,603 - Connection: UDP 192.168.30.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,603 - Connection: UDP 192.168.30.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
+2025-09-03 15:11:33,604 - Connection: UDP 192.168.30.1:54261 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,604 - Connection: UDP 192.168.56.1:137 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,605 - Connection: UDP 192.168.56.1:138 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,605 - Connection: UDP 192.168.56.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,606 - Connection: UDP 192.168.56.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
+2025-09-03 15:11:33,606 - Connection: UDP 192.168.56.1:54260 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,606 - Connection: UDP 192.168.137.1:137 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,607 - Connection: UDP 192.168.137.1:138 -> *:None State:  PID: 4 Process: System
+2025-09-03 15:11:33,607 - Connection: UDP 192.168.137.1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,607 - Connection: UDP 192.168.137.1:2968 -> *:None State:  PID: 22520 Process: EEventManager.exe
+2025-09-03 15:11:33,608 - Connection: UDP 192.168.137.1:54262 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,608 - Connection: UDP :::123 -> *:None State:  PID: 12732 Process: svchost.exe
+2025-09-03 15:11:33,608 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,609 - Connection: UDP :::5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,609 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,609 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,609 - Connection: UDP :::5353 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,610 - Connection: UDP :::5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,610 - Connection: UDP :::5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,610 - Connection: UDP :::5353 -> *:None State:  PID: 19148 Process: chrome.exe
+2025-09-03 15:11:33,611 - Connection: UDP :::5353 -> *:None State:  PID: 4536 Process: chrome.exe
+2025-09-03 15:11:33,611 - Connection: UDP :::5355 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,612 - Connection: UDP :::61430 -> *:None State:  PID: 1048 Process: svchost.exe
+2025-09-03 15:11:33,614 - Connection: UDP ::1:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,614 - Connection: UDP ::1:54259 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,615 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,615 - Connection: UDP fe80::1d4:9494:ea01:ca6%19:54257 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,616 - Connection: UDP fe80::595e:1d37:18b4:106a%21:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,616 - Connection: UDP fe80::595e:1d37:18b4:106a%21:54255 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,616 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,616 - Connection: UDP fe80::a337:e905:7bb0:b0fa%13:54256 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,617 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:1900 -> *:None State:  PID: 7956 Process: svchost.exe
+2025-09-03 15:11:33,617 - Connection: UDP fe80::a4c2:4a61:36c2:383%22:54258 -> *:None State:  PID: 7956 Process: svchost.exe
